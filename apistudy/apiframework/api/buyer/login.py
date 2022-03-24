@@ -5,7 +5,7 @@
 # @Copyright：北京码同学
 import requests
 
-from apistudy.apiframework.api.base_api import BaseBuyerApi
+from apiframework.api.base_api import BaseBuyerApi
 
 
 class BuyerLogin(BaseBuyerApi):
