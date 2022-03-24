@@ -29,3 +29,4 @@ print(data)
 print(data[0])
 # 拿到第一行数据里的trade_sn
 print(data[0]['trade_sn'])
+# 新增提交git
