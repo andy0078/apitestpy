@@ -5,7 +5,7 @@
 # @Copyright：北京码同学
 import requests
 
-from apistudy0306.apistudy.apiframework.common.logger import GetLogger
+from apiframework.common.logger import GetLogger
 
 
 class RequestsClient:

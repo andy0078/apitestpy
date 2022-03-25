@@ -7,8 +7,8 @@ from typing import List
 
 import pytest
 
-from apistudy.apiframework.api.base_api import BaseBuyerApi
-from apistudy.apiframework.api.buyer.login import BuyerLogin
+from apiframework.api.base_api import BaseBuyerApi
+from apiframework.api.buyer.login import BuyerLogin
 
 def pytest_collection_modifyitems(
         session: "Session", config: "Config", items: List["Item"]

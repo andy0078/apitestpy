@@ -1,6 +1,6 @@
 import logging.handlers
 ## 单例模式的思想：通过逻辑控制，只生成一个对象
-from apistudy0306.apistudy.apiframework.setting import DIR_NAME
+from apiframework.setting import DIR_NAME
 
 
 class GetLogger:
