@@ -14,9 +14,12 @@ from Crypto.PublicKey import RSA
 from Crypto.Signature import PKCS1_v1_5 as PKCS1_signature
 from Crypto.Cipher import PKCS1_v1_5 as PKCS1_cipher, AES
 
+
 # md5加密
-def md5(string:str):
+def md5(string: str):
     return hashlib.md5(string.encode(encoding='UTF-8')).hexdigest()
+
+
 class AesEncrypt:
     """
     AES加密
@@ -51,11 +54,14 @@ class AesEncrypt:
         res = base64.decodebytes(decrData.encode("utf8"))
         msg = self.aes.decrypt(res).decode("utf8")
         return self.unpad(msg)
+
+
 class RsaEncrypt():
     """
     初始化时必须传递公钥和私钥存储的文件路径
     """
-    def __init__(self,public_file,private_file):
+
+    def __init__(self, public_file, private_file):
         self.public_file = public_file
         self.private_file = private_file
 
@@ -77,32 +83,32 @@ class RsaEncrypt():
             f.write(private_key)
 
         with open(self.public_file, 'wb')as f:
-
             f.write(public_key)
             print('生成')
+
     # 从秘钥文件中获取密钥
-    def get_key(self,key_file):
+    def get_key(self, key_file):
         with open(key_file) as f:
             data = f.read()
             key = RSA.importKey(data)
         return key
 
     # rsa 公钥加密数据
-    def encrypt_data(self,msg):
+    def encrypt_data(self, msg):
         public_key = self.get_key(self.public_file)
         cipher = PKCS1_cipher.new(public_key)
         encrypt_text = base64.b64encode(cipher.encrypt(bytes(msg.encode("utf8"))))
         return encrypt_text.decode('utf-8')
 
     # rsa 私钥解密数据
-    def decrypt_data(self,encrypt_msg):
+    def decrypt_data(self, encrypt_msg):
         private_key = self.get_key(self.private_file)
         cipher = PKCS1_cipher.new(private_key)
         back_text = cipher.decrypt(base64.b64decode(encrypt_msg), 0)
         return back_text.decode('utf-8')
 
     # rsa 私钥签名数据
-    def rsa_private_sign(self,data):
+    def rsa_private_sign(self, data):
         private_key = self.get_key(self.private_file)
         signer = PKCS1_signature.new(private_key)
         digest = SHA.new()
@@ -113,12 +119,14 @@ class RsaEncrypt():
         return signature
 
     # rsa 公钥验证签名
-    def rsa_public_check_sign(self,text,sign):
+    def rsa_public_check_sign(self, text, sign):
         publick_key = self.get_key(self.public_file)
         verifier = PKCS1_signature.new(publick_key)
         digest = SHA.new()
         digest.update(text.encode("utf8"))
         return verifier.verify(digest, base64.b64decode(sign))
+
+
 if __name__ == '__main__':
     # 注意私钥是找开发要的
     aes = AesEncrypt('0123456789123456')
@@ -127,7 +135,7 @@ if __name__ == '__main__':
     res1 = aes.decrypt(res)
     print(res1)
 
-    rsa = RsaEncrypt('public_key.keystore','private_key.keystore')
+    rsa = RsaEncrypt('public_key.keystore', 'private_key.keystore')
     # rsa.generate_key()
     res = rsa.encrypt_data('python自动化')
     print(res)
