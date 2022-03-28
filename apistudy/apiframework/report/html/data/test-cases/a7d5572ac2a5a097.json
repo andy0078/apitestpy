@@ -1,0 +1,240 @@
+{
+  "uid" : "a7d5572ac2a5a097",
+  "name" : "REACT和CART",
+  "fullName" : "testcases.process.test_999_order.TestOrderProcess#test_create_trade",
+  "historyId" : "b1c0ca411ccda1435dfe30d0e4a1f7c9",
+  "time" : {
+    "start" : 1647163461121,
+    "stop" : 1647163461408,
+    "duration" : 287
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_goods",
+    "time" : {
+      "start" : 1647163458955,
+      "stop" : 1647163459215,
+      "duration" : 260
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_buyer_token",
+    "time" : {
+      "start" : 1647163456490,
+      "stop" : 1647163456618,
+      "duration" : 128
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "redis_util",
+    "time" : {
+      "start" : 1647163457053,
+      "stop" : 1647163457053,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_manager_token",
+    "time" : {
+      "start" : 1647163456618,
+      "stop" : 1647163456811,
+      "duration" : 193
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "db_util",
+    "time" : {
+      "start" : 1647163456385,
+      "stop" : 1647163456490,
+      "duration" : 105
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1647163456271,
+      "stop" : 1647163456385,
+      "duration" : 114
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_seller_token",
+    "time" : {
+      "start" : 1647163456811,
+      "stop" : 1647163457053,
+      "duration" : 242
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c54618d0f9c6c448",
+      "name" : "log",
+      "source" : "c54618d0f9c6c448.txt",
+      "type" : "text/plain",
+      "size" : 6945
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "get_goods::0",
+    "time" : {
+      "start" : 1647163471608,
+      "stop" : 1647163471704,
+      "duration" : 96
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "redis_util::0",
+    "time" : {
+      "start" : 1647163472447,
+      "stop" : 1647163472447,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "db_util::0",
+    "time" : {
+      "start" : 1647163472450,
+      "stop" : 1647163472450,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "创建交易正常业务"
+  }, {
+    "name" : "feature",
+    "value" : "订单流程测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.process"
+  }, {
+    "name" : "suite",
+    "value" : "test_999_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrderProcess"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-93HH27QA"
+  }, {
+    "name" : "thread",
+    "value" : "55488-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.process.test_999_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casename",
+    "value" : "'REACT和CART'"
+  }, {
+    "name" : "client",
+    "value" : "'REACT'"
+  }, {
+    "name" : "expect_statuscode",
+    "value" : "200"
+  }, {
+    "name" : "way",
+    "value" : "'CART'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7d5572ac2a5a097.json",
+  "parameterValues" : [ "'REACT和CART'", "'REACT'", "200", "'CART'" ]
+}

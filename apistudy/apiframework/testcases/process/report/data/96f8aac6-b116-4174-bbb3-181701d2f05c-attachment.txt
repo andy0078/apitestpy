@@ -1,0 +1,27 @@
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的url是:http://47.104.140.177:7002/trade/carts
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的method是:delete
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDgxOTcyODksInVzZXJuYW1lIjoic2hhbW8ifQ.fIgC3cU4Qfm3SyluMX5iErHg48O1a74eJseGvnkeMvbINk1NM8yiR9nLch6-DVv3WQaOlFZt4rS5VEbTdms_sQ'}
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的params是:None
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的data是:None
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的json是:None
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的files是:None
+2022-03-25 16:14:52 [client.py:54  ] [DEBUG] 接口的响应状态码是:200
+2022-03-25 16:14:52 [client.py:55  ] [DEBUG] 接口的响应是:
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的url是:http://47.104.140.177:7002/trade/carts
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的method是:post
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDgxOTcyODksInVzZXJuYW1lIjoic2hhbW8ifQ.fIgC3cU4Qfm3SyluMX5iErHg48O1a74eJseGvnkeMvbINk1NM8yiR9nLch6-DVv3WQaOlFZt4rS5VEbTdms_sQ'}
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的params是:{'sku_id': 10056, 'num': 1}
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的data是:None
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的json是:None
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的files是:None
+2022-03-25 16:14:52 [client.py:54  ] [DEBUG] 接口的响应状态码是:200
+2022-03-25 16:14:52 [client.py:55  ] [DEBUG] 接口的响应是:{"sku_id":10056,"goods_id":9785,"goods_name":"沙陌炒锅**商品","sn":"sn000282","quantity":99999999,"enable_quantity":99999999,"price":280.0,"cost":50.0,"weight":2.0,"seller_id":20,"seller_name":"沙陌的店","category_id":83,"thumbnail":"http://www.mtxshop.com:7000/statics/attachment/goods/2022/3/13/10/57184862.png_300x300.png","hash_code":-1,"template_id":0,"spec_list":null,"goods_transfee_charge":1,"disabled":1,"market_enable":1,"goods_type":"NORMAL","last_modify":1648196090,"scripts":null,"num":1,"checked":1,"single_list":[],"group_list":[]}
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的url是:http://47.104.140.177:7002/trade/create
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的method是:post
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDgxOTcyODksInVzZXJuYW1lIjoic2hhbW8ifQ.fIgC3cU4Qfm3SyluMX5iErHg48O1a74eJseGvnkeMvbINk1NM8yiR9nLch6-DVv3WQaOlFZt4rS5VEbTdms_sQ'}
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的params是:{'client': 'NATIVE', 'way': 'CART'}
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的data是:None
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的json是:None
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的files是:None
+2022-03-25 16:14:52 [client.py:54  ] [DEBUG] 接口的响应状态码是:500
+2022-03-25 16:14:52 [client.py:55  ] [DEBUG] 接口的响应是:{"code":"452","message":"请填写收货地址"}

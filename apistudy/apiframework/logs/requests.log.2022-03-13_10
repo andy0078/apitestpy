@@ -1,0 +1,225 @@
+2022-03-13 10:03:54,576 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/passport/login
+2022-03-13 10:03:54,578 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:03:54,578 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': ''}
+2022-03-13 10:03:54,578 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'username': 'shamo', 'password': 'e10adc3949ba59abbe56e057f20f883e', 'captcha': '1512', 'uuid': 'jsjdhdhdhdhdhdhh'}
+2022-03-13 10:03:54,578 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:03:54,578 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:03:54,578 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:03:54,810 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:200
+2022-03-13 10:03:54,810 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"uid":59,"username":"shamo","nickname":"zyx2","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzgyMzYsInVzZXJuYW1lIjoic2hhbW8ifQ.AB3xr7UXIv_v-NKFm231CQllA7XvxPza5dUOynsBYv-505gKgyvqDdSLklhAvVsLVfGcIAIitrcBumhFUU5OsA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzg4MzYsInVzZXJuYW1lIjoic2hhbW8ifQ.u9HTLAoVV1vR2_itqq2Lqr3JXlAXzoPItVYVYXtTqxR9s2ZHdhHoA6ih9BECZDPaeqUC5w39GuR3upG5tBAv9Q","face":"http://www.mtxshop.com:7000/statics/attachment/normal/2022/3/3/9/30199251.png"}
+2022-03-13 10:03:54,812 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:03:54,812 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:03:54,813 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzgyMzYsInVzZXJuYW1lIjoic2hhbW8ifQ.AB3xr7UXIv_v-NKFm231CQllA7XvxPza5dUOynsBYv-505gKgyvqDdSLklhAvVsLVfGcIAIitrcBumhFUU5OsA'}
+2022-03-13 10:03:54,813 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 5173, 'num': 1}
+2022-03-13 10:03:54,813 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:03:54,813 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:03:54,813 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:03:54,853 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:200
+2022-03-13 10:03:54,854 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"sku_id":5173,"goods_id":4942,"goods_name":"沙陌**炒锅","sn":"shamo001","quantity":9999928,"enable_quantity":9997237,"price":179.0,"cost":50.0,"weight":2.0,"seller_id":20,"seller_name":"沙陌的店","category_id":83,"thumbnail":"http://www.mtxshop.com:7000/statics/attachment/goods/2021/12/13/21/50442449.png_300x300.png","hash_code":-1,"template_id":0,"spec_list":null,"goods_transfee_charge":1,"disabled":1,"market_enable":1,"goods_type":"NORMAL","last_modify":1640517899,"scripts":null,"num":1,"checked":1,"single_list":[],"group_list":[]}
+2022-03-13 10:03:54,863 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:03:54,863 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:03:54,863 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzgyMzYsInVzZXJuYW1lIjoic2hhbW8ifQ.AB3xr7UXIv_v-NKFm231CQllA7XvxPza5dUOynsBYv-505gKgyvqDdSLklhAvVsLVfGcIAIitrcBumhFUU5OsA'}
+2022-03-13 10:03:54,863 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 5875, 'num': 1}
+2022-03-13 10:03:54,864 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:03:54,864 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:03:54,864 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:03:54,904 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:200
+2022-03-13 10:03:54,904 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"sku_id":5875,"goods_id":5644,"goods_name":"沙陌**炒锅","sn":"shamo001","quantity":9999999,"enable_quantity":9999999,"price":179.0,"cost":50.0,"weight":2.0,"seller_id":20,"seller_name":"沙陌的店","category_id":83,"thumbnail":"http://www.mtxshop.com:7000/statics/attachment/goods/2021/12/13/21/50442449.png_300x300.png","hash_code":-1,"template_id":0,"spec_list":null,"goods_transfee_charge":1,"disabled":1,"market_enable":0,"goods_type":"NORMAL","last_modify":1644741597,"scripts":null,"num":1,"checked":1,"single_list":[],"group_list":[]}
+2022-03-13 10:03:55,191 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:03:55,191 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:03:55,191 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzgyMzYsInVzZXJuYW1lIjoic2hhbW8ifQ.AB3xr7UXIv_v-NKFm231CQllA7XvxPza5dUOynsBYv-505gKgyvqDdSLklhAvVsLVfGcIAIitrcBumhFUU5OsA'}
+2022-03-13 10:03:55,192 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 456665, 'num': 1}
+2022-03-13 10:03:55,192 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:03:55,192 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:03:55,192 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:03:55,228 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:500
+2022-03-13 10:03:55,229 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"451","message":"商品已失效，请刷新购物车"}
+2022-03-13 10:03:55,255 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:03:55,255 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:03:55,256 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzgyMzYsInVzZXJuYW1lIjoic2hhbW8ifQ.AB3xr7UXIv_v-NKFm231CQllA7XvxPza5dUOynsBYv-505gKgyvqDdSLklhAvVsLVfGcIAIitrcBumhFUU5OsA'}
+2022-03-13 10:03:55,256 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 5173, 'num': 99999999}
+2022-03-13 10:03:55,256 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:03:55,256 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:03:55,256 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:03:55,316 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:500
+2022-03-13 10:03:55,316 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"451","message":"商品库存已不足，不能购买。"}
+2022-03-13 10:03:55,340 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:03:55,340 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:03:55,340 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzgyMzYsInVzZXJuYW1lIjoic2hhbW8ifQ.AB3xr7UXIv_v-NKFm231CQllA7XvxPza5dUOynsBYv-505gKgyvqDdSLklhAvVsLVfGcIAIitrcBumhFUU5OsA'}
+2022-03-13 10:03:55,340 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 5173, 'num': 0}
+2022-03-13 10:03:55,340 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:03:55,341 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:03:55,341 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:03:55,407 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:400
+2022-03-13 10:03:55,407 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"004","message":"加入购物车数量必须大于0"}
+2022-03-13 10:03:55,432 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:03:55,432 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:03:55,433 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzgyMzYsInVzZXJuYW1lIjoic2hhbW8ifQ.AB3xr7UXIv_v-NKFm231CQllA7XvxPza5dUOynsBYv-505gKgyvqDdSLklhAvVsLVfGcIAIitrcBumhFUU5OsA'}
+2022-03-13 10:03:55,433 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 5173, 'num': -1}
+2022-03-13 10:03:55,433 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:03:55,433 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:03:55,433 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:03:55,486 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:400
+2022-03-13 10:03:55,486 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"004","message":"加入购物车数量必须大于0"}
+2022-03-13 10:03:55,510 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:03:55,510 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:03:55,511 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzgyMzYsInVzZXJuYW1lIjoic2hhbW8ifQ.AB3xr7UXIv_v-NKFm231CQllA7XvxPza5dUOynsBYv-505gKgyvqDdSLklhAvVsLVfGcIAIitrcBumhFUU5OsA'}
+2022-03-13 10:03:55,511 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 5173, 'num': None}
+2022-03-13 10:03:55,511 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:03:55,511 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:03:55,511 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:03:55,576 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:400
+2022-03-13 10:03:55,576 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"004","message":"购买数量不能为空"}
+2022-03-13 10:03:55,600 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:03:55,600 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:03:55,600 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzgyMzYsInVzZXJuYW1lIjoic2hhbW8ifQ.AB3xr7UXIv_v-NKFm231CQllA7XvxPza5dUOynsBYv-505gKgyvqDdSLklhAvVsLVfGcIAIitrcBumhFUU5OsA'}
+2022-03-13 10:03:55,600 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': None, 'num': 1}
+2022-03-13 10:03:55,600 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:03:55,600 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:03:55,601 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:03:55,660 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:400
+2022-03-13 10:03:55,660 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"004","message":"产品id不能为空"}
+2022-03-13 10:07:12,407 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/passport/login
+2022-03-13 10:07:12,408 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:07:12,408 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': ''}
+2022-03-13 10:07:12,408 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'username': 'shamo', 'password': 'e10adc3949ba59abbe56e057f20f883e', 'captcha': '1512', 'uuid': 'jsjdhdhdhdhdhdhh'}
+2022-03-13 10:07:12,408 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:07:12,408 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:07:12,408 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:07:12,643 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:200
+2022-03-13 10:07:12,643 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"uid":59,"username":"shamo","nickname":"zyx2","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzg0MzQsInVzZXJuYW1lIjoic2hhbW8ifQ.9pwp4fBzeO9PfsW0H8IIe1I1Z0R0ig1CwrugtPSJc_B80Yrn7Eyci4mD6-kDzMDqooKexhg_65NObDhXxvETPw","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzkwMzQsInVzZXJuYW1lIjoic2hhbW8ifQ.tRZ3M-95QA-ec1PrXtSAwwYeHsKvjbeCGIWzt5lT4c1JXJjJs-Vssua4zXxhhAulxjzxpFMI8S8QZR5DNKDpoA","face":"http://www.mtxshop.com:7000/statics/attachment/normal/2022/3/3/9/30199251.png"}
+2022-03-13 10:07:12,645 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:07:12,645 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:07:12,645 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzg0MzQsInVzZXJuYW1lIjoic2hhbW8ifQ.9pwp4fBzeO9PfsW0H8IIe1I1Z0R0ig1CwrugtPSJc_B80Yrn7Eyci4mD6-kDzMDqooKexhg_65NObDhXxvETPw'}
+2022-03-13 10:07:12,645 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 5875, 'num': 1}
+2022-03-13 10:07:12,645 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:07:12,645 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:07:12,645 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:07:12,687 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:200
+2022-03-13 10:07:12,687 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"sku_id":5875,"goods_id":5644,"goods_name":"沙陌**炒锅","sn":"shamo001","quantity":9999999,"enable_quantity":9999999,"price":179.0,"cost":50.0,"weight":2.0,"seller_id":20,"seller_name":"沙陌的店","category_id":83,"thumbnail":"http://www.mtxshop.com:7000/statics/attachment/goods/2021/12/13/21/50442449.png_300x300.png","hash_code":-1,"template_id":0,"spec_list":null,"goods_transfee_charge":1,"disabled":1,"market_enable":0,"goods_type":"NORMAL","last_modify":1644741597,"scripts":null,"num":2,"checked":1,"single_list":[],"group_list":[]}
+2022-03-13 10:07:13,013 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:07:13,013 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:07:13,013 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzg0MzQsInVzZXJuYW1lIjoic2hhbW8ifQ.9pwp4fBzeO9PfsW0H8IIe1I1Z0R0ig1CwrugtPSJc_B80Yrn7Eyci4mD6-kDzMDqooKexhg_65NObDhXxvETPw'}
+2022-03-13 10:07:13,013 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 6636655, 'num': 1}
+2022-03-13 10:07:13,013 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:07:13,014 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:07:13,014 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:07:13,048 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:500
+2022-03-13 10:07:13,049 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"451","message":"商品已失效，请刷新购物车"}
+2022-03-13 10:07:13,103 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:07:13,103 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:07:13,103 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzg0MzQsInVzZXJuYW1lIjoic2hhbW8ifQ.9pwp4fBzeO9PfsW0H8IIe1I1Z0R0ig1CwrugtPSJc_B80Yrn7Eyci4mD6-kDzMDqooKexhg_65NObDhXxvETPw'}
+2022-03-13 10:07:13,103 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 5173, 'num': 99999999}
+2022-03-13 10:07:13,103 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:07:13,103 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:07:13,103 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:07:13,172 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:500
+2022-03-13 10:07:13,172 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"451","message":"商品库存已不足，不能购买。"}
+2022-03-13 10:07:13,210 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:07:13,210 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:07:13,210 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzg0MzQsInVzZXJuYW1lIjoic2hhbW8ifQ.9pwp4fBzeO9PfsW0H8IIe1I1Z0R0ig1CwrugtPSJc_B80Yrn7Eyci4mD6-kDzMDqooKexhg_65NObDhXxvETPw'}
+2022-03-13 10:07:13,210 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 5173, 'num': 0}
+2022-03-13 10:07:13,210 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:07:13,210 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:07:13,210 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:07:13,271 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:400
+2022-03-13 10:07:13,272 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"004","message":"加入购物车数量必须大于0"}
+2022-03-13 10:07:13,311 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:07:13,312 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:07:13,312 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzg0MzQsInVzZXJuYW1lIjoic2hhbW8ifQ.9pwp4fBzeO9PfsW0H8IIe1I1Z0R0ig1CwrugtPSJc_B80Yrn7Eyci4mD6-kDzMDqooKexhg_65NObDhXxvETPw'}
+2022-03-13 10:07:13,312 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 5173, 'num': -1}
+2022-03-13 10:07:13,312 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:07:13,312 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:07:13,312 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:07:13,376 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:400
+2022-03-13 10:07:13,377 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"004","message":"加入购物车数量必须大于0"}
+2022-03-13 10:07:13,413 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:07:13,413 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:07:13,413 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzg0MzQsInVzZXJuYW1lIjoic2hhbW8ifQ.9pwp4fBzeO9PfsW0H8IIe1I1Z0R0ig1CwrugtPSJc_B80Yrn7Eyci4mD6-kDzMDqooKexhg_65NObDhXxvETPw'}
+2022-03-13 10:07:13,413 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 'None', 'num': 1}
+2022-03-13 10:07:13,413 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:07:13,413 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:07:13,413 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:07:13,467 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:500
+2022-03-13 10:07:13,467 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"004","message":"不合法"}
+2022-03-13 10:07:13,477 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:07:13,477 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:07:13,477 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzg0MzQsInVzZXJuYW1lIjoic2hhbW8ifQ.9pwp4fBzeO9PfsW0H8IIe1I1Z0R0ig1CwrugtPSJc_B80Yrn7Eyci4mD6-kDzMDqooKexhg_65NObDhXxvETPw'}
+2022-03-13 10:07:13,477 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 5173, 'num': 'None'}
+2022-03-13 10:07:13,477 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:07:13,477 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:07:13,477 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:07:13,535 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:500
+2022-03-13 10:07:13,536 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"004","message":"不合法"}
+2022-03-13 10:13:49,586 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/passport/login
+2022-03-13 10:13:49,586 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:13:49,587 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': ''}
+2022-03-13 10:13:49,587 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'username': 'shamo', 'password': 'e10adc3949ba59abbe56e057f20f883e', 'captcha': '1512', 'uuid': 'jsjdhdhdhdhdhdhh'}
+2022-03-13 10:13:49,587 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:13:49,587 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:13:49,587 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:13:49,875 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:200
+2022-03-13 10:13:49,875 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"uid":59,"username":"shamo","nickname":"zyx2","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzg4MzEsInVzZXJuYW1lIjoic2hhbW8ifQ.eTloYm4LHXl9amQ8fc5awW9OeuPX06nqKfyJFtoXNT8hyeiqL1VIOZ86T1eb_iQMzt20hjn4fLO4uEr7N75ngQ","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzk0MzEsInVzZXJuYW1lIjoic2hhbW8ifQ.Ouj9-LcV9DieAROQTJUlw7fSDHlWb9N-Z_zDTcZaiFClfHNGpo-5xeeJZzq172dyJLgkYZNw0TQVCsgUnNPXDQ","face":"http://www.mtxshop.com:7000/statics/attachment/normal/2022/3/3/9/30199251.png"}
+2022-03-13 10:13:49,876 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:13:49,876 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:13:49,876 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzg4MzEsInVzZXJuYW1lIjoic2hhbW8ifQ.eTloYm4LHXl9amQ8fc5awW9OeuPX06nqKfyJFtoXNT8hyeiqL1VIOZ86T1eb_iQMzt20hjn4fLO4uEr7N75ngQ'}
+2022-03-13 10:13:49,877 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 5875, 'num': 1}
+2022-03-13 10:13:49,877 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:13:49,877 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:13:49,877 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:13:49,944 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:200
+2022-03-13 10:13:49,944 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"sku_id":5875,"goods_id":5644,"goods_name":"沙陌**炒锅","sn":"shamo001","quantity":9999999,"enable_quantity":9999999,"price":179.0,"cost":50.0,"weight":2.0,"seller_id":20,"seller_name":"沙陌的店","category_id":83,"thumbnail":"http://www.mtxshop.com:7000/statics/attachment/goods/2021/12/13/21/50442449.png_300x300.png","hash_code":-1,"template_id":0,"spec_list":null,"goods_transfee_charge":1,"disabled":1,"market_enable":0,"goods_type":"NORMAL","last_modify":1644741597,"scripts":null,"num":3,"checked":1,"single_list":[],"group_list":[]}
+2022-03-13 10:13:50,258 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:13:50,258 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:13:50,258 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzg4MzEsInVzZXJuYW1lIjoic2hhbW8ifQ.eTloYm4LHXl9amQ8fc5awW9OeuPX06nqKfyJFtoXNT8hyeiqL1VIOZ86T1eb_iQMzt20hjn4fLO4uEr7N75ngQ'}
+2022-03-13 10:13:50,258 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 6636655, 'num': 1}
+2022-03-13 10:13:50,258 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:13:50,259 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:13:50,259 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:13:50,349 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:500
+2022-03-13 10:13:50,349 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"451","message":"商品已失效，请刷新购物车"}
+2022-03-13 10:13:50,375 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:13:50,375 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:13:50,375 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzg4MzEsInVzZXJuYW1lIjoic2hhbW8ifQ.eTloYm4LHXl9amQ8fc5awW9OeuPX06nqKfyJFtoXNT8hyeiqL1VIOZ86T1eb_iQMzt20hjn4fLO4uEr7N75ngQ'}
+2022-03-13 10:13:50,375 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 5173, 'num': 99999999}
+2022-03-13 10:13:50,375 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:13:50,375 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:13:50,375 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:13:50,534 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:500
+2022-03-13 10:13:50,535 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"451","message":"商品库存已不足，不能购买。"}
+2022-03-13 10:13:50,561 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:13:50,561 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:13:50,562 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzg4MzEsInVzZXJuYW1lIjoic2hhbW8ifQ.eTloYm4LHXl9amQ8fc5awW9OeuPX06nqKfyJFtoXNT8hyeiqL1VIOZ86T1eb_iQMzt20hjn4fLO4uEr7N75ngQ'}
+2022-03-13 10:13:50,562 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 5173, 'num': 0}
+2022-03-13 10:13:50,562 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:13:50,562 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:13:50,562 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:13:50,618 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:400
+2022-03-13 10:13:50,618 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"004","message":"加入购物车数量必须大于0"}
+2022-03-13 10:13:50,639 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:13:50,639 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:13:50,639 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzg4MzEsInVzZXJuYW1lIjoic2hhbW8ifQ.eTloYm4LHXl9amQ8fc5awW9OeuPX06nqKfyJFtoXNT8hyeiqL1VIOZ86T1eb_iQMzt20hjn4fLO4uEr7N75ngQ'}
+2022-03-13 10:13:50,640 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 5173, 'num': -1}
+2022-03-13 10:13:50,640 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:13:50,640 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:13:50,640 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:13:50,704 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:400
+2022-03-13 10:13:50,704 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"004","message":"加入购物车数量必须大于0"}
+2022-03-13 10:13:50,727 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:13:50,728 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:13:50,728 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzg4MzEsInVzZXJuYW1lIjoic2hhbW8ifQ.eTloYm4LHXl9amQ8fc5awW9OeuPX06nqKfyJFtoXNT8hyeiqL1VIOZ86T1eb_iQMzt20hjn4fLO4uEr7N75ngQ'}
+2022-03-13 10:13:50,728 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': '', 'num': 1}
+2022-03-13 10:13:50,728 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:13:50,728 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:13:50,728 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:13:50,787 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:400
+2022-03-13 10:13:50,787 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"004","message":"产品id不能为空"}
+2022-03-13 10:13:50,815 DEBUG [apiautotest] [client.py (send:44] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2022-03-13 10:13:50,815 DEBUG [apiautotest] [client.py (send:44] - 接口的method是:post
+2022-03-13 10:13:50,815 DEBUG [apiautotest] [client.py (send:44] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxMzg4MzEsInVzZXJuYW1lIjoic2hhbW8ifQ.eTloYm4LHXl9amQ8fc5awW9OeuPX06nqKfyJFtoXNT8hyeiqL1VIOZ86T1eb_iQMzt20hjn4fLO4uEr7N75ngQ'}
+2022-03-13 10:13:50,815 DEBUG [apiautotest] [client.py (send:44] - 接口的params是:{'sku_id': 5173, 'num': ''}
+2022-03-13 10:13:50,815 DEBUG [apiautotest] [client.py (send:44] - 接口的data是:None
+2022-03-13 10:13:50,815 DEBUG [apiautotest] [client.py (send:44] - 接口的json是:None
+2022-03-13 10:13:50,816 DEBUG [apiautotest] [client.py (send:44] - 接口的files是:None
+2022-03-13 10:13:50,873 DEBUG [apiautotest] [client.py (send:47] - 接口的响应状态码是:400
+2022-03-13 10:13:50,873 DEBUG [apiautotest] [client.py (send:48] - 接口的响应是:{"code":"004","message":"购买数量不能为空"}
