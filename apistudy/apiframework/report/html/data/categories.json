@@ -7,7 +7,7 @@
       "name" : "AssertionError: assert 200 == 500\n  +200\n  -500",
       "children" : [ {
         "name" : "产品已下架",
-        "uid" : "f09724e416294f4e",
+        "uid" : "777505822001285b",
         "parentUid" : "e8a51b95478b865ade7e2ac3fc07ed47",
         "status" : "failed",
         "time" : {
@@ -20,7 +20,7 @@
         "parameters" : [ "'产品已下架'", "'\"004\"'", "'产品已下架'", "500", "1", "5875" ]
       }, {
         "name" : "产品已下架",
-        "uid" : "4c2888731bdf8201",
+        "uid" : "553b5ed88ec538f6",
         "parentUid" : "e8a51b95478b865ade7e2ac3fc07ed47",
         "status" : "failed",
         "time" : {
@@ -37,7 +37,7 @@
       "name" : "AssertionError: assert 200 == 400\n  +200\n  -400",
       "children" : [ {
         "name" : "商品编号为空",
-        "uid" : "3eba224965c7832f",
+        "uid" : "517ad3843243e574",
         "parentUid" : "58bb90b1c65a550cf9b7a9c3f4705361",
         "status" : "failed",
         "time" : {
@@ -50,7 +50,7 @@
         "parameters" : [ "'商品编号为空'", "400", "'{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"沙陌炒锅测试商品\",\n            \"sn\": \"\",\n            \"price\": \"280\",\n            \"mktprice\": \"300\",\n            \"cost\": \"50\",\n            \"weight\": \"2\",\n            \"goods_gallery_list\": [{\n                \"img_id\": -1,\n                \"original\": \"http://www.mtxshop.com:7000/statics/attachment/goods/2022/3/13/10/57184862.png\",\n                \"sort\": 0\n            }],\n            \"quantity\": 99999999,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": [],\n            \"intro\": \"商品说明\"\n        }'" ]
       }, {
         "name" : "库存为空",
-        "uid" : "c8077da69494c0c",
+        "uid" : "de7155df8c40e7ba",
         "parentUid" : "58bb90b1c65a550cf9b7a9c3f4705361",
         "status" : "failed",
         "time" : {

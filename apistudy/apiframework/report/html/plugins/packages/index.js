@@ -32,6 +32,14 @@ allure.api.addTranslation('de', {
     }
 });
 
+allure.api.addTranslation('nl', {
+    tab: {
+        packages: {
+            name: 'Packages'
+        }
+    }
+});
+
 allure.api.addTranslation('he', {
     tab: {
         packages: {
@@ -60,6 +68,22 @@ allure.api.addTranslation('es', {
     tab: {
         packages: {
             name: 'Paquetes'
+        }
+    }
+});
+
+allure.api.addTranslation('kr', {
+    tab: {
+        packages: {
+            name: '패키지'
+        }
+    }
+});
+
+allure.api.addTranslation('fr', {
+    tab: {
+        packages: {
+            name: 'Paquets'
         }
     }
 });

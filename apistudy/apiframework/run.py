@@ -8,7 +8,7 @@ import sys
 
 import pytest
 
-from apiframeworkmon.file_load import load_yaml_file, write_yaml
+from apiframework.common.file_load import load_yaml_file, write_yaml
 
 if __name__ == '__main__':
     # 获取外部传参
