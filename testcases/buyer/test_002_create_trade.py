@@ -8,7 +8,7 @@ import pytest
 
 from api.buyer.cart import BuyNowApi, AddCartApi, DeleteCartApi
 from api.buyer.create_trade import CreateTradeApi
-from apiframeworkmon.file_load import read_excel
+from common.file_load import read_excel
 
 @allure.feature('创建交易接口')
 class TestCreateTrade:
