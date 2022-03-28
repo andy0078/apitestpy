@@ -1,0 +1,36 @@
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的url是:http://47.104.140.177:7002/passport/login
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的method是:post
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的headers是:{'Authorization': ''}
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的params是:{'username': 'shamo', 'password': 'e10adc3949ba59abbe56e057f20f883e', 'captcha': '1512', 'uuid': 'jsjdhdhdhdhdhdhh'}
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的data是:None
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的json是:None
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的files是:None
+2022-03-13 17:24:16 [client.py:53  ] [DEBUG] 接口的响应状态码是:200
+2022-03-13 17:24:16 [client.py:54  ] [DEBUG] 接口的响应是:{"uid":59,"username":"shamo","nickname":"zyx2","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxNjQ2NTYsInVzZXJuYW1lIjoic2hhbW8ifQ.nqrkaCTE_PPr8cDUmz8Yfjk-KA4IIVswsSikfKaOO0JbQjeth0IHAq83CqYc7HjMS0c7cweBCNWpaTmqFSfhBQ","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxNjUyNTYsInVzZXJuYW1lIjoic2hhbW8ifQ.ZJtTEVV6RfwF4EZwU3HZYlMx4PVqsr7AueSMV5UckHZy59YHoFBunNwuAMYHGN8A3MfvJvTSaGmGhd6PeGXYtQ","face":"http://www.mtxshop.com:7000/statics/attachment/normal/2022/3/3/9/30199251.png"}
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的url是:http://47.104.140.177:7004/admin/systems/admin-users/login
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的method是:get
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的headers是:{'Authorization': ''}
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的params是:{'username': 'admin', 'password': '96e79218965eb72c92a549dd5a330112', 'captcha': '1512', 'uuid': 'jsjdhdhdhdhdhdhh'}
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的data是:None
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的json是:None
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的files是:None
+2022-03-13 17:24:16 [client.py:53  ] [DEBUG] 接口的响应状态码是:200
+2022-03-13 17:24:16 [client.py:54  ] [DEBUG] 接口的响应是:{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":21,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6Iui2hee6p-euoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTY0NzE2NDY1NywidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.L3mNFeyYm1lRnkF2is-KaMwHjZmvYX1AKoL6DXet7MnuwhlZvpMNOwAYsFhC8CGSdGJkH99QlomSA81LT25GDg","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6Iui2hee6p-euoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTY0NzE2NTI1NywidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.WurcU05QbrNbdrksDVEQ6cBGI5LIRgHHJ2Egsa_YMeR8XRvRLWm9449Lfy1b8pn-WK1xCVOmQ7a69YdHiGd-PA"}
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的url是:http://47.104.140.177:7003/seller/login
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的method是:get
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的headers是:{'Authorization': ''}
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的params是:{'username': 'shamoseller', 'password': 'e10adc3949ba59abbe56e057f20f883e', 'captcha': '1512', 'uuid': 'jsjdhdhdhdhdhdhh'}
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的data是:None
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的json是:None
+2022-03-13 17:24:16 [client.py:50  ] [DEBUG] 接口的files是:None
+2022-03-13 17:24:17 [client.py:53  ] [DEBUG] 接口的响应状态码是:200
+2022-03-13 17:24:17 [client.py:54  ] [DEBUG] 接口的响应是:{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6lyIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE2NDcxNjQ2NTcsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.1UTdBQpSStYqm-HUO894Ghr-QQZZXx1KS81_19umESNUa0faOF49wz4sjpmRjGdYYf7sZTSuKukMtXri9BkEaA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6lyIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE2NDcxNjUyNTcsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.um0lQKCi-abXkIKYlgP47pxqcJIcgMk0BUuVVar4E_RP9HXCivJMEwge6Yfsz9pCC2OhNXnvhNbCo98leme7QQ","face":null,"role_id":0,"founder":1}
+2022-03-13 17:24:17 [client.py:50  ] [DEBUG] 接口的url是:http://47.104.140.177:7002/trade/carts
+2022-03-13 17:24:17 [client.py:50  ] [DEBUG] 接口的method是:post
+2022-03-13 17:24:17 [client.py:50  ] [DEBUG] 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxNjQ2NTYsInVzZXJuYW1lIjoic2hhbW8ifQ.nqrkaCTE_PPr8cDUmz8Yfjk-KA4IIVswsSikfKaOO0JbQjeth0IHAq83CqYc7HjMS0c7cweBCNWpaTmqFSfhBQ'}
+2022-03-13 17:24:17 [client.py:50  ] [DEBUG] 接口的params是:{'sku_id': 5875, 'num': 1}
+2022-03-13 17:24:17 [client.py:50  ] [DEBUG] 接口的data是:None
+2022-03-13 17:24:17 [client.py:50  ] [DEBUG] 接口的json是:None
+2022-03-13 17:24:17 [client.py:50  ] [DEBUG] 接口的files是:None
+2022-03-13 17:24:17 [client.py:53  ] [DEBUG] 接口的响应状态码是:200
+2022-03-13 17:24:17 [client.py:54  ] [DEBUG] 接口的响应是:{"sku_id":5875,"goods_id":5644,"goods_name":"沙陌**炒锅","sn":"shamo001","quantity":9999999,"enable_quantity":9999999,"price":179.0,"cost":50.0,"weight":2.0,"seller_id":20,"seller_name":"沙陌的店","category_id":83,"thumbnail":"http://www.mtxshop.com:7000/statics/attachment/goods/2021/12/13/21/50442449.png_300x300.png","hash_code":-1,"template_id":0,"spec_list":null,"goods_transfee_charge":1,"disabled":1,"market_enable":0,"goods_type":"NORMAL","last_modify":1644741597,"scripts":null,"num":2,"checked":1,"single_list":[],"group_list":[]}

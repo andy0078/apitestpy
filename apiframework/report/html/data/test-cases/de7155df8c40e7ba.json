@@ -1,0 +1,215 @@
+{
+  "uid" : "de7155df8c40e7ba",
+  "name" : "库存为空",
+  "fullName" : "testcases.seller.test_500_add_goods.TestAddGoods#test_add_goods[库存为空-{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"沙陌炒锅测试商品\",\n            \"sn\": \"sn000282\",\n            \"price\": \"280\",\n            \"mktprice\": \"300\",\n            \"cost\": \"50\",\n            \"weight\": \"2\",\n            \"goods_gallery_list\": [{\n                \"img_id\": -1,\n                \"original\": \"http://www.mtxshop.com:7000/statics/attachment/goods/2022/3/13/10/57184862.png\",\n                \"sort\": 0\n            }],\n            \"quantity\": 0,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": ",
+  "historyId" : "fd21fd5fb1b62ded01e20887dd8296a1",
+  "time" : {
+    "start" : 1647163472276,
+    "stop" : 1647163472441,
+    "duration" : 165
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 200 == 400\n  +200\n  -400",
+  "statusTrace" : "self = <apiframework.testcases.seller.test_500_add_goods.TestAddGoods object at 0x00000289EB27ABB0>, casename = '库存为空'\njsonparams = {'brand_id': '', 'category_id': 83, 'category_name': '', 'cost': '50', ...}, expect_stauscode = 400\n\n    @allure.story('卖家添加商品接口异常测试')\n    @allure.title('{casename}')\n    @pytest.mark.parametrize('casename,jsonparams,expect_stauscode',test_data)\n    def test_add_goods(self,casename,jsonparams,expect_stauscode):\n        jsonparams = eval(jsonparams) #由于从excel读出的json参数是一个字符串，所以我们将其转换字典\n        add_goods_api = AddGoodsApi()\n        add_goods_api.json = jsonparams #给接口的json属性重新赋值，值为为excel读出的数据\n        resp = add_goods_api.send()\n>       assert resp.status_code == expect_stauscode\nE       assert 200 == 400\nE         +200\nE         -400\n\ntestcases\\seller\\test_500_add_goods.py:23: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_buyer_token",
+    "time" : {
+      "start" : 1647163456490,
+      "stop" : 1647163456618,
+      "duration" : 128
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "redis_util",
+    "time" : {
+      "start" : 1647163457053,
+      "stop" : 1647163457053,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_manager_token",
+    "time" : {
+      "start" : 1647163456618,
+      "stop" : 1647163456811,
+      "duration" : 193
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "db_util",
+    "time" : {
+      "start" : 1647163456385,
+      "stop" : 1647163456490,
+      "duration" : 105
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1647163456271,
+      "stop" : 1647163456385,
+      "duration" : 114
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_seller_token",
+    "time" : {
+      "start" : 1647163456811,
+      "stop" : 1647163457053,
+      "duration" : 242
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 200 == 400\n  +200\n  -400",
+    "statusTrace" : "self = <apiframework.testcases.seller.test_500_add_goods.TestAddGoods object at 0x00000289EB27ABB0>, casename = '库存为空'\njsonparams = {'brand_id': '', 'category_id': 83, 'category_name': '', 'cost': '50', ...}, expect_stauscode = 400\n\n    @allure.story('卖家添加商品接口异常测试')\n    @allure.title('{casename}')\n    @pytest.mark.parametrize('casename,jsonparams,expect_stauscode',test_data)\n    def test_add_goods(self,casename,jsonparams,expect_stauscode):\n        jsonparams = eval(jsonparams) #由于从excel读出的json参数是一个字符串，所以我们将其转换字典\n        add_goods_api = AddGoodsApi()\n        add_goods_api.json = jsonparams #给接口的json属性重新赋值，值为为excel读出的数据\n        resp = add_goods_api.send()\n>       assert resp.status_code == expect_stauscode\nE       assert 200 == 400\nE         +200\nE         -400\n\ntestcases\\seller\\test_500_add_goods.py:23: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6c17c6413080e09d",
+      "name" : "log",
+      "source" : "6c17c6413080e09d.txt",
+      "type" : "text/plain",
+      "size" : 2873
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "redis_util::0",
+    "time" : {
+      "start" : 1647163472447,
+      "stop" : 1647163472447,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "db_util::0",
+    "time" : {
+      "start" : 1647163472450,
+      "stop" : 1647163472450,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "卖家添加商品接口异常测试"
+  }, {
+    "name" : "feature",
+    "value" : "卖家添加商品接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.seller"
+  }, {
+    "name" : "suite",
+    "value" : "test_500_add_goods"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddGoods"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-93HH27QA"
+  }, {
+    "name" : "thread",
+    "value" : "55488-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.seller.test_500_add_goods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casename",
+    "value" : "'库存为空'"
+  }, {
+    "name" : "expect_stauscode",
+    "value" : "400"
+  }, {
+    "name" : "jsonparams",
+    "value" : "'{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"沙陌炒锅测试商品\",\n            \"sn\": \"sn000282\",\n            \"price\": \"280\",\n            \"mktprice\": \"300\",\n            \"cost\": \"50\",\n            \"weight\": \"2\",\n            \"goods_gallery_list\": [{\n                \"img_id\": -1,\n                \"original\": \"http://www.mtxshop.com:7000/statics/attachment/goods/2022/3/13/10/57184862.png\",\n                \"sort\": 0\n            }],\n            \"quantity\": 0,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": [],\n            \"intro\": \"商品说明\"\n        }'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "de7155df8c40e7ba.json",
+  "parameterValues" : [ "'库存为空'", "400", "'{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"沙陌炒锅测试商品\",\n            \"sn\": \"sn000282\",\n            \"price\": \"280\",\n            \"mktprice\": \"300\",\n            \"cost\": \"50\",\n            \"weight\": \"2\",\n            \"goods_gallery_list\": [{\n                \"img_id\": -1,\n                \"original\": \"http://www.mtxshop.com:7000/statics/attachment/goods/2022/3/13/10/57184862.png\",\n                \"sort\": 0\n            }],\n            \"quantity\": 0,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": [],\n            \"intro\": \"商品说明\"\n        }'" ]
+}

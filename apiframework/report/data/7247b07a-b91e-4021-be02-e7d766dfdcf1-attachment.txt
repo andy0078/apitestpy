@@ -1,0 +1,27 @@
+2022-03-13 17:24:29 [client.py:50  ] [DEBUG] 接口的url是:http://47.104.140.177:7002/members/comments
+2022-03-13 17:24:29 [client.py:50  ] [DEBUG] 接口的method是:post
+2022-03-13 17:24:29 [client.py:50  ] [DEBUG] 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDcxNjQ2NTYsInVzZXJuYW1lIjoic2hhbW8ifQ.nqrkaCTE_PPr8cDUmz8Yfjk-KA4IIVswsSikfKaOO0JbQjeth0IHAq83CqYc7HjMS0c7cweBCNWpaTmqFSfhBQ'}
+2022-03-13 17:24:29 [client.py:50  ] [DEBUG] 接口的params是:None
+2022-03-13 17:24:29 [client.py:50  ] [DEBUG] 接口的data是:None
+2022-03-13 17:24:29 [client.py:50  ] [DEBUG] 接口的json是:{'order_sn': '20220313000252', 'delivery_score': 5, 'description_score': 5, 'service_score': 5, 'comments': [{'sku_id': 7760, 'content': '这就是个评论，不要管我说啥', 'grade': 'good', 'images': []}]}
+2022-03-13 17:24:29 [client.py:50  ] [DEBUG] 接口的files是:None
+2022-03-13 17:24:31 [client.py:53  ] [DEBUG] 接口的响应状态码是:200
+2022-03-13 17:24:31 [client.py:54  ] [DEBUG] 接口的响应是:
+2022-03-13 17:24:31 [client.py:50  ] [DEBUG] 接口的url是:http://47.104.140.177:7003/seller/goods/7494/under
+2022-03-13 17:24:31 [client.py:50  ] [DEBUG] 接口的method是:put
+2022-03-13 17:24:31 [client.py:50  ] [DEBUG] 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6lyIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE2NDcxNjQ2NTcsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.1UTdBQpSStYqm-HUO894Ghr-QQZZXx1KS81_19umESNUa0faOF49wz4sjpmRjGdYYf7sZTSuKukMtXri9BkEaA'}
+2022-03-13 17:24:31 [client.py:50  ] [DEBUG] 接口的params是:{'reason': ''}
+2022-03-13 17:24:31 [client.py:50  ] [DEBUG] 接口的data是:None
+2022-03-13 17:24:31 [client.py:50  ] [DEBUG] 接口的json是:None
+2022-03-13 17:24:31 [client.py:50  ] [DEBUG] 接口的files是:None
+2022-03-13 17:24:31 [client.py:53  ] [DEBUG] 接口的响应状态码是:200
+2022-03-13 17:24:31 [client.py:54  ] [DEBUG] 接口的响应是:
+2022-03-13 17:24:31 [client.py:50  ] [DEBUG] 接口的url是:http://47.104.140.177:7003/seller/goods/7494
+2022-03-13 17:24:31 [client.py:50  ] [DEBUG] 接口的method是:delete
+2022-03-13 17:24:31 [client.py:50  ] [DEBUG] 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6lyIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE2NDcxNjQ2NTcsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.1UTdBQpSStYqm-HUO894Ghr-QQZZXx1KS81_19umESNUa0faOF49wz4sjpmRjGdYYf7sZTSuKukMtXri9BkEaA'}
+2022-03-13 17:24:31 [client.py:50  ] [DEBUG] 接口的params是:None
+2022-03-13 17:24:31 [client.py:50  ] [DEBUG] 接口的data是:None
+2022-03-13 17:24:31 [client.py:50  ] [DEBUG] 接口的json是:None
+2022-03-13 17:24:31 [client.py:50  ] [DEBUG] 接口的files是:None
+2022-03-13 17:24:31 [client.py:53  ] [DEBUG] 接口的响应状态码是:500
+2022-03-13 17:24:31 [client.py:54  ] [DEBUG] 接口的响应是:{"code":"301","message":"存在不能删除的商品，不能操作"}

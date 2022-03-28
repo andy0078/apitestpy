@@ -1,0 +1,9 @@
+2022-03-25 16:14:56 [client.py:51  ] [DEBUG] 接口的url是:http://47.104.140.177:7003/seller/trade/orders//pay
+2022-03-25 16:14:56 [client.py:51  ] [DEBUG] 接口的method是:post
+2022-03-25 16:14:56 [client.py:51  ] [DEBUG] 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6lyIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE2NDgxOTcyOTAsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.757GnHAkzw14LSGZ4U9VuHqmtq8WFhqkVSio3Cf6nNxxUnK1ezvLdnaU9ZPRcTMrnaJj31ATn2E7zdN_tkQoAw'}
+2022-03-25 16:14:56 [client.py:51  ] [DEBUG] 接口的params是:{'pay_price': 0}
+2022-03-25 16:14:56 [client.py:51  ] [DEBUG] 接口的data是:None
+2022-03-25 16:14:56 [client.py:51  ] [DEBUG] 接口的json是:None
+2022-03-25 16:14:56 [client.py:51  ] [DEBUG] 接口的files是:None
+2022-03-25 16:14:56 [client.py:54  ] [DEBUG] 接口的响应状态码是:500
+2022-03-25 16:14:56 [client.py:55  ] [DEBUG] 接口的响应是:{"timestamp":"2022-03-25T08:14:55.830+0000","status":500,"error":"Internal Server Error","message":"The request was rejected because the URL was not normalized.","path":"/seller/trade/orders//pay"}

@@ -1,0 +1,9 @@
+2022-03-25 16:44:13 [client.py:51  ] [DEBUG] 接口的url是:http://47.104.140.177:7002/trade/carts
+2022-03-25 16:44:13 [client.py:51  ] [DEBUG] 接口的method是:post
+2022-03-25 16:44:13 [client.py:51  ] [DEBUG] 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDgxOTkwNTIsInVzZXJuYW1lIjoic2hhbW8ifQ.GPD-ku_cHlp1w_QsqpkcTHRt-yOCKG7F9KfcZ31JLwSXVJLmvIS85K3FHyryBGHr-pcsaC4YGRnc5Z0nWuAdug'}
+2022-03-25 16:44:13 [client.py:51  ] [DEBUG] 接口的params是:{'sku_id': 6636655, 'num': 1}
+2022-03-25 16:44:13 [client.py:51  ] [DEBUG] 接口的data是:None
+2022-03-25 16:44:13 [client.py:51  ] [DEBUG] 接口的json是:None
+2022-03-25 16:44:13 [client.py:51  ] [DEBUG] 接口的files是:None
+2022-03-25 16:44:13 [client.py:54  ] [DEBUG] 接口的响应状态码是:500
+2022-03-25 16:44:13 [client.py:55  ] [DEBUG] 接口的响应是:{"code":"451","message":"商品已失效，请刷新购物车"}

@@ -1,0 +1,18 @@
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的url是:http://47.104.140.177:7002/trade/carts/buy
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的method是:post
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDgxOTcyODksInVzZXJuYW1lIjoic2hhbW8ifQ.fIgC3cU4Qfm3SyluMX5iErHg48O1a74eJseGvnkeMvbINk1NM8yiR9nLch6-DVv3WQaOlFZt4rS5VEbTdms_sQ'}
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的params是:{'sku_id': 10056, 'num': 1}
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的data是:None
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的json是:None
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的files是:None
+2022-03-25 16:14:52 [client.py:54  ] [DEBUG] 接口的响应状态码是:200
+2022-03-25 16:14:52 [client.py:55  ] [DEBUG] 接口的响应是:
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的url是:http://47.104.140.177:7002/trade/create
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的method是:post
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDgxOTcyODksInVzZXJuYW1lIjoic2hhbW8ifQ.fIgC3cU4Qfm3SyluMX5iErHg48O1a74eJseGvnkeMvbINk1NM8yiR9nLch6-DVv3WQaOlFZt4rS5VEbTdms_sQ'}
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的params是:{'client': 'REACT', 'way': 'BUY_NOW'}
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的data是:None
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的json是:None
+2022-03-25 16:14:52 [client.py:51  ] [DEBUG] 接口的files是:None
+2022-03-25 16:14:52 [client.py:54  ] [DEBUG] 接口的响应状态码是:500
+2022-03-25 16:14:52 [client.py:55  ] [DEBUG] 接口的响应是:{"code":"452","message":"请填写收货地址"}
