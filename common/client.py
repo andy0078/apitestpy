@@ -5,8 +5,8 @@
 # @Copyright：北京码同学
 import requests
 
-from apiframework.common.encry_decry import AesEncrypt
-from apiframework.common.logger import GetLogger
+from  common.encry_decry import AesEncrypt
+from  common.logger import GetLogger
 
 
 class RequestsClient:

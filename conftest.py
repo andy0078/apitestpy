@@ -7,15 +7,15 @@ from typing import List
 
 import pytest
 
-from apiframework.api.base_api import BaseBuyerApi, BaseSellerApi, BaseManagerApi
-from apiframework.api.buyer.login import BuyerLogin
-from apiframework.api.manager.goods import AuditGoodsApi
-from apiframework.api.manager.login import ManagerLogin
-from apiframework.api.seller.goods import AddGoodsApi, GetGoodsSkuInfoApi, GoodsUnderApi, DeleteGoodsApi
-from apiframework.api.seller.login import SellerLogin
-from apiframework.common.db_util import DB_Util
-from apiframework.common.file_load import load_yaml_file
-from apiframework.common.redis_util import RedisUtil
+from  api.base_api import BaseBuyerApi, BaseSellerApi, BaseManagerApi
+from  api.buyer.login import BuyerLogin
+from  api.manager.goods import AuditGoodsApi
+from  api.manager.login import ManagerLogin
+from  api.seller.goods import AddGoodsApi, GetGoodsSkuInfoApi, GoodsUnderApi, DeleteGoodsApi
+from  api.seller.login import SellerLogin
+from  common.db_util import DB_Util
+from  common.file_load import load_yaml_file
+from  common.redis_util import RedisUtil
 
 
 def pytest_collection_modifyitems(

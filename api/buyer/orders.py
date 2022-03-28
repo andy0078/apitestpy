@@ -3,7 +3,7 @@
 # @author: 沙陌 微信：Matongxue_2
 # @Time: 2022-03-13 10:30
 # @Copyright：北京码同学
-from apiframework.api.base_api import BaseBuyerApi
+from  api.base_api import BaseBuyerApi
 
 
 class CancelOrderApi(BaseBuyerApi):

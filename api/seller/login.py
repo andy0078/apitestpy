@@ -3,9 +3,9 @@
 # @author: 沙陌 微信：Matongxue_2
 # @Time: 2022-03-06 14:45
 # @Copyright：北京码同学
-from apiframework.api.base_api import BaseSellerApi
-from apiframework.common.encry_decry import md5
-from apiframework.common.file_load import load_yaml_file
+from  api.base_api import BaseSellerApi
+from  common.encry_decry import md5
+from  common.file_load import load_yaml_file
 
 
 class SellerLogin(BaseSellerApi):

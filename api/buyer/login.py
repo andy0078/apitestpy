@@ -5,9 +5,9 @@
 # @Copyright：北京码同学
 import requests
 
-from apiframework.api.base_api import BaseBuyerApi
-from apiframework.common.encry_decry import md5
-from apiframework.common.file_load import load_yaml_file
+from  api.base_api import BaseBuyerApi
+from  common.encry_decry import md5
+from  common.file_load import load_yaml_file
 
 
 class BuyerLogin(BaseBuyerApi):

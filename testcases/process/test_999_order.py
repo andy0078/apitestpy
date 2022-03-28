@@ -9,12 +9,12 @@ import allure
 import jsonpath
 import pytest
 
-from apiframework.api.buyer.cart import BuyNowApi, DeleteCartApi, AddCartApi
-from apiframework.api.buyer.comment import CommentApi
-from apiframework.api.buyer.create_trade import CreateTradeApi
-from apiframework.api.buyer.orders import ConfirmOrgApi
-from apiframework.api.seller.order import OrderDeliveryApi, OrderPayApi
-from apiframework.common.file_load import read_excel
+from  api.buyer.cart import BuyNowApi, DeleteCartApi, AddCartApi
+from  api.buyer.comment import CommentApi
+from  api.buyer.create_trade import CreateTradeApi
+from  api.buyer.orders import ConfirmOrgApi
+from  api.seller.order import OrderDeliveryApi, OrderPayApi
+from  common.file_load import read_excel
 
 
 @allure.feature('订单流程测试')

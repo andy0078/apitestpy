@@ -5,8 +5,8 @@
 # @Copyright：北京码同学
 import requests
 
-from apiframework.common.client import RequestsClient
-from apiframework.common.file_load import load_yaml_file
+from  common.client import RequestsClient
+from  common.file_load import load_yaml_file
 
 
 class BaseBuyerApi(RequestsClient):

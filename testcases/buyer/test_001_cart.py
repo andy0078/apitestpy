@@ -6,8 +6,8 @@
 import allure
 import pytest
 
-from apiframework.api.buyer.cart import AddCartApi, BuyNowApi
-from apiframework.common.file_load import read_excel
+from  api.buyer.cart import AddCartApi, BuyNowApi
+from  common.file_load import read_excel
 
 
 @allure.feature('购物车接口')

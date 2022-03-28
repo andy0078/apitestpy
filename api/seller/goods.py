@@ -3,7 +3,7 @@
 # @author: 沙陌 微信：Matongxue_2
 # @Time: 2022-03-13 10:53
 # @Copyright：北京码同学
-from apiframework.api.base_api import BaseSellerApi
+from  api.base_api import BaseSellerApi
 
 
 class AddGoodsApi(BaseSellerApi):

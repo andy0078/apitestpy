@@ -6,7 +6,7 @@
 import pandas
 import yaml
 
-from apiframework.setting import DIR_NAME
+from  setting import DIR_NAME
 
 
 def read_excel(filepath, sheet_name):

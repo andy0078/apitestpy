@@ -3,8 +3,8 @@
 # @author: 沙陌 微信：Matongxue_2
 # @Time: 2022-03-13 11:43
 # @Copyright：北京码同学
-from apiframework.api.base_api import BaseBasicApi
-from apiframework.setting import DIR_NAME
+from api.base_api import BaseBasicApi
+from setting import DIR_NAME
 
 
 class UploadFileApi(BaseBasicApi):

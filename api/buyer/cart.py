@@ -5,7 +5,7 @@
 # @Copyright：北京码同学
 import requests
 
-from apiframework.api.base_api import BaseBuyerApi
+from api.base_api import BaseBuyerApi
 
 
 class AddCartApi(BaseBuyerApi):
