@@ -1,9 +1,0 @@
-2022-03-15 16:02:10 [client.py:44  ] [DEBUG] 接口的url是:http://www.mtxshop.com:7002/trade/carts
-2022-03-15 16:02:10 [client.py:44  ] [DEBUG] 接口的method是:post
-2022-03-15 16:02:10 [client.py:44  ] [DEBUG] 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE2NDczMzI1MjksInVzZXJuYW1lIjoic2hhbW8ifQ.Y5V_ERmCi_OcA2hjaSe_RcC4GwuflKDYFqnoaRxJVgfbj9tTo2MKmyPlhhNErmRyDeU3-rM8LXeBfCK6pWqIvg'}
-2022-03-15 16:02:10 [client.py:44  ] [DEBUG] 接口的params是:{'sku_id': 5173, 'num': 0}
-2022-03-15 16:02:10 [client.py:44  ] [DEBUG] 接口的data是:None
-2022-03-15 16:02:10 [client.py:44  ] [DEBUG] 接口的json是:None
-2022-03-15 16:02:10 [client.py:44  ] [DEBUG] 接口的files是:None
-2022-03-15 16:02:10 [client.py:47  ] [DEBUG] 接口的响应状态码是:400
-2022-03-15 16:02:10 [client.py:48  ] [DEBUG] 接口的响应是:{"code":"004","message":"加入购物车数量必须大于0"}

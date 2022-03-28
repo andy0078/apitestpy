@@ -1,9 +1,0 @@
-2022-03-13 17:24:32 [client.py:50  ] [DEBUG] 接口的url是:http://47.104.140.177:7003/seller/goods
-2022-03-13 17:24:32 [client.py:50  ] [DEBUG] 接口的method是:post
-2022-03-13 17:24:32 [client.py:50  ] [DEBUG] 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6lyIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE2NDcxNjQ2NTcsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.1UTdBQpSStYqm-HUO894Ghr-QQZZXx1KS81_19umESNUa0faOF49wz4sjpmRjGdYYf7sZTSuKukMtXri9BkEaA'}
-2022-03-13 17:24:32 [client.py:50  ] [DEBUG] 接口的params是:None
-2022-03-13 17:24:32 [client.py:50  ] [DEBUG] 接口的data是:None
-2022-03-13 17:24:32 [client.py:50  ] [DEBUG] 接口的json是:{'brand_id': '', 'category_id': 83, 'category_name': '', 'goods_name': '沙陌炒锅测试商品', 'sn': 'sn000282', 'price': '280', 'mktprice': '300', 'cost': '50', 'weight': '2', 'goods_gallery_list': [], 'quantity': 99999999, 'goods_transfee_charge': 1, 'has_changed': 0, 'market_enable': 1, 'template_id': 0, 'exchange': {'category_id': '', 'enable_exchange': 0, 'exchange_money': 0, 'exchange_point': 0}, 'shop_cat_id': 0, 'meta_description': '', 'meta_keywords': '', 'page_title': '', 'goods_params_list': [], 'sku_list': [], 'intro': '商品说明'}
-2022-03-13 17:24:32 [client.py:50  ] [DEBUG] 接口的files是:None
-2022-03-13 17:24:32 [client.py:53  ] [DEBUG] 接口的响应状态码是:400
-2022-03-13 17:24:32 [client.py:54  ] [DEBUG] 接口的响应是:{"code":"004","message":"商品相册图片不能为空"}
