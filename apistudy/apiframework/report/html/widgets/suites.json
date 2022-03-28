@@ -1,4 +1,37 @@
 {
-  "total" : 0,
-  "items" : [ ]
+  "total" : 3,
+  "items" : [ {
+    "uid" : "aa742241b84408bab0b5a624148279a8",
+    "name" : "testcases.buyer",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 16,
+      "unknown" : 0,
+      "total" : 18
+    }
+  }, {
+    "uid" : "87d35efb58bf3e1cb51501df6a5702c6",
+    "name" : "testcases.seller",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "f5c5f248458d7d113482b18babb15718",
+    "name" : "testcases.process",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 14,
+      "unknown" : 0,
+      "total" : 14
+    }
+  } ]
 }

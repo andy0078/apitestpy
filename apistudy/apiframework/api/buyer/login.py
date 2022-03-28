@@ -6,12 +6,15 @@
 import requests
 
 from apiframework.api.base_api import BaseBuyerApi
+from apiframework.common.encry_decry import md5
+from apiframework.common.file_load import load_yaml_file
 
 
 class BuyerLogin(BaseBuyerApi):
 
     def __init__(self):
         super().__init__()
+        self.common = load_yaml_file('/config/common.yml')
         self.url = f'{self.host}/passport/login'
         self.method = 'post'
 
@@ -20,9 +23,9 @@ class BuyerLogin(BaseBuyerApi):
         # }
         # 查询参数通常使用params来表示
         self.params = {
-            'username': 'shamo',
-            'password': 'e10adc3949ba59abbe56e057f20f883e',
-            'captcha': '1512',
+            'username': self.common['buyerName'],
+            'password': md5(self.common['buyerPassword']),
+            'captcha': self.common['captcha'],
             'uuid': 'jsjdhdhdhdhdhdhh'
         }
     # def send(self):
