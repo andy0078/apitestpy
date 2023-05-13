@@ -14,10 +14,10 @@ http:
   seller: http://www.mtxshop.com:7003
 db:
   mtxshop:
-    host: 121.42.15.146
-    password: Testfan#123
+    host: 82.156.74.26
+    password: mtxshamo
     port: 3306
-    username: root
+    username: mtxshop_test
 redis:
   mtxshop:
     host: 121.42.15.146
