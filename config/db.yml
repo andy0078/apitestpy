@@ -1,5 +1,5 @@
 mtxshop:
-  host: 121.42.15.146
-  password: Testfan#123
+  host: 82.156.74.26
+  password: mtxshamo
   port: 3306
-  username: root
+  username: mtxshop_test
