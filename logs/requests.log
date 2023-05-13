@@ -709,3 +709,21 @@
 2022-03-25 16:44:14,417 DEBUG [apiautotest] [client.py (send:51] - 接口的files是:None
 2022-03-25 16:44:14,467 DEBUG [apiautotest] [client.py (send:54] - 接口的响应状态码是:400
 2022-03-25 16:44:14,467 DEBUG [apiautotest] [client.py (send:55] - 接口的响应是:{"code":"004","message":"购买数量不能为空"}
+2023-05-13 12:37:29,036 DEBUG [apiautotest] [client.py (send:51] - 接口的url是:http://www.mtxshop.com:7002/passport/login
+2023-05-13 12:37:29,036 DEBUG [apiautotest] [client.py (send:51] - 接口的method是:post
+2023-05-13 12:37:29,036 DEBUG [apiautotest] [client.py (send:51] - 接口的headers是:{'Authorization': ''}
+2023-05-13 12:37:29,036 DEBUG [apiautotest] [client.py (send:51] - 接口的params是:{'username': 'andy', 'password': 'e10adc3949ba59abbe56e057f20f883e', 'captcha': '1512', 'uuid': 'jsjdhdhdhdhdhdhh'}
+2023-05-13 12:37:29,036 DEBUG [apiautotest] [client.py (send:51] - 接口的data是:None
+2023-05-13 12:37:29,036 DEBUG [apiautotest] [client.py (send:51] - 接口的json是:None
+2023-05-13 12:37:29,036 DEBUG [apiautotest] [client.py (send:51] - 接口的files是:None
+2023-05-13 12:37:29,279 DEBUG [apiautotest] [client.py (send:54] - 接口的响应状态码是:200
+2023-05-13 12:37:29,279 DEBUG [apiautotest] [client.py (send:55] - 接口的响应是:{"uid":63532,"username":"andy","nickname":"andy","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjYzNTMyLCJzdWIiOiJCVVlFUiIsInJvbGVzIjpbIkJVWUVSIl0sImV4cCI6MTY4Mzk1Mzg0OCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhbmR5In0.6JTDxLpKVI6jk7PZAsqoJuFl8Yc4B6YY5_C9fbnCaLmkmJz2yjP5IB2PkjlihiMP7R3--kkWu1qilhBNFQC_EA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjYzNTMyLCJzdWIiOiJCVVlFUiIsInJvbGVzIjpbIkJVWUVSIl0sImV4cCI6MTY4Mzk1NDQ0OCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhbmR5In0.8rlsbpxWVd6GeHKZuCAEZni1R1OkQiPmFcasrWfLHyb4IHpPEYZ-x15lFyO8dXmplkLYn-hPYk8XO3iXKd6vyA","face":null}
+2023-05-13 12:37:29,280 DEBUG [apiautotest] [client.py (send:51] - 接口的url是:http://www.mtxshop.com:7002/trade/carts
+2023-05-13 12:37:29,280 DEBUG [apiautotest] [client.py (send:51] - 接口的method是:post
+2023-05-13 12:37:29,280 DEBUG [apiautotest] [client.py (send:51] - 接口的headers是:{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjYzNTMyLCJzdWIiOiJCVVlFUiIsInJvbGVzIjpbIkJVWUVSIl0sImV4cCI6MTY4Mzk1Mzg0OCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhbmR5In0.6JTDxLpKVI6jk7PZAsqoJuFl8Yc4B6YY5_C9fbnCaLmkmJz2yjP5IB2PkjlihiMP7R3--kkWu1qilhBNFQC_EA'}
+2023-05-13 12:37:29,280 DEBUG [apiautotest] [client.py (send:51] - 接口的params是:{'sku_id': 5173, 'num': 1}
+2023-05-13 12:37:29,280 DEBUG [apiautotest] [client.py (send:51] - 接口的data是:None
+2023-05-13 12:37:29,280 DEBUG [apiautotest] [client.py (send:51] - 接口的json是:None
+2023-05-13 12:37:29,280 DEBUG [apiautotest] [client.py (send:51] - 接口的files是:None
+2023-05-13 12:37:29,334 DEBUG [apiautotest] [client.py (send:54] - 接口的响应状态码是:200
+2023-05-13 12:37:29,335 DEBUG [apiautotest] [client.py (send:55] - 接口的响应是:{"sku_id":5173,"goods_id":4942,"goods_name":"沙陌**炒锅","sn":"shamo001","quantity":9999868,"enable_quantity":9994985,"price":179.0,"cost":50.0,"weight":2.0,"seller_id":20,"seller_name":"沙陌的店","category_id":83,"thumbnail":"http://82.156.74.26:7000/statics/attachment/goods/2021/12/13/21/50442449.png_300x300.png","hash_code":-1,"template_id":0,"spec_list":null,"goods_transfee_charge":1,"disabled":1,"market_enable":1,"goods_type":"NORMAL","last_modify":1640517899,"scripts":null,"num":1,"checked":1,"single_list":[],"group_list":[]}
