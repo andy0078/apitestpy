@@ -5,9 +5,9 @@
 # @Copyright：北京码同学
 import allure
 import pytest
+from common.file_load import read_excel
 
-from  api.buyer.cart import AddCartApi, BuyNowApi
-from  common.file_load import read_excel
+from api.buyer.cart import AddCartApi, BuyNowApi
 
 
 @allure.feature('购物车接口')

@@ -6,99 +6,21 @@
     "children" : [ {
       "name" : "55488-MainThread",
       "children" : [ {
-        "name" : "产品id不存在",
-        "uid" : "f4d4d2b7369085b6",
+        "name" : "买家收货接口",
+        "uid" : "f50a988fd23209da",
         "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
         "status" : "passed",
         "time" : {
-          "start" : 1647163457477,
-          "stop" : 1647163457538,
-          "duration" : 61
+          "start" : 1647163464451,
+          "stop" : 1647163466263,
+          "duration" : 1812
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'产品id不存在'", "'\"451\"'", "'商品已失效，请刷新购物车'", "500", "1", "6636655" ]
-      }, {
-        "name" : "NATIVE和CART",
-        "uid" : "24f9e259afed9d8f",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163460395,
-          "stop" : 1647163460800,
-          "duration" : 405
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'NATIVE和CART'", "'NATIVE'", "200", "'CART'" ]
-      }, {
-        "name" : "client为空",
-        "uid" : "8a8f2076f5ba4ea8",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163458743,
-          "stop" : 1647163458808,
-          "duration" : 65
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'client为空'", "''", "500", "'BUY_NOW'" ]
-      }, {
-        "name" : "way为空",
-        "uid" : "6eb8866f9f3ba95d",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163458882,
-          "stop" : 1647163458947,
-          "duration" : 65
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'way为空'", "'PC'", "500", "''" ]
-      }, {
-        "name" : "PC和CART",
-        "uid" : "45809d0a47475e4d",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163459422,
-          "stop" : 1647163459649,
-          "duration" : 227
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'PC和CART'", "'PC'", "200", "'CART'" ]
-      }, {
-        "name" : "市场价格为空",
-        "uid" : "27b9964e43a80f75",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163471949,
-          "stop" : 1647163471981,
-          "duration" : 32
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'市场价格为空'", "400", "'{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"沙陌炒锅测试商品\",\n            \"sn\": \"sn000282\",\n            \"price\": \"280\",\n            \"mktprice\": \"\",\n            \"cost\": \"50\",\n            \"weight\": \"2\",\n            \"goods_gallery_list\": [{\n                \"img_id\": -1,\n                \"original\": \"http://www.mtxshop.com:7000/statics/attachment/goods/2022/3/13/10/57184862.png\",\n                \"sort\": 0\n            }],\n            \"quantity\": 99999999,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": [],\n            \"intro\": \"商品说明\"\n        }'" ]
-      }, {
-        "name" : "way不是有效数据",
-        "uid" : "a1c528757dd74a60",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163458816,
-          "stop" : 1647163458877,
-          "duration" : 61
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'way不是有效数据'", "'PC'", "500", "'sddd'" ]
+        "parameters" : [ ]
       }, {
         "name" : "REACT和BUY_NOW",
-        "uid" : "4c99fc08028da6a",
+        "uid" : "c36f9f396a0fa848",
         "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
         "status" : "passed",
         "time" : {
@@ -110,21 +32,8 @@
         "newFailed" : false,
         "parameters" : [ "'REACT和BUY_NOW'", "'REACT'", "200", "'BUY_NOW'" ]
       }, {
-        "name" : "产品id为空",
-        "uid" : "451a7de9b90038ea",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163457839,
-          "stop" : 1647163457915,
-          "duration" : 76
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'产品id为空'", "'\"004\"'", "'产品id不能为空'", "400", "1", "''" ]
-      }, {
         "name" : "买家评论接口",
-        "uid" : "8dd34075d5b4b3ce",
+        "uid" : "9340a62f664bb4fb",
         "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
         "status" : "passed",
         "time" : {
@@ -136,73 +45,60 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "WAP和BUY_NOW",
-        "uid" : "92116c8583724603",
+        "name" : "卖家发货接口",
+        "uid" : "20067b6347bdd1df",
         "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
         "status" : "passed",
         "time" : {
-          "start" : 1647163459656,
-          "stop" : 1647163459900,
-          "duration" : 244
+          "start" : 1647163461939,
+          "stop" : 1647163464447,
+          "duration" : 2508
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'WAP和BUY_NOW'", "'WAP'", "200", "'BUY_NOW'" ]
+        "parameters" : [ ]
       }, {
-        "name" : "PC和BUY_NOW",
-        "uid" : "ebcfe225d705089a",
+        "name" : "产品id为空",
+        "uid" : "f55472c909dae62a",
         "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
         "status" : "passed",
         "time" : {
-          "start" : 1647163459216,
-          "stop" : 1647163459415,
-          "duration" : 199
+          "start" : 1647163457839,
+          "stop" : 1647163457915,
+          "duration" : 76
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'PC和BUY_NOW'", "'PC'", "200", "'BUY_NOW'" ]
+        "parameters" : [ "'产品id为空'", "'\"004\"'", "'产品id不能为空'", "400", "1", "''" ]
       }, {
-        "name" : "图片为空",
-        "uid" : "41b335729ae305ca",
+        "name" : "num为0",
+        "uid" : "a1dfa7ff5800b354",
         "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
         "status" : "passed",
         "time" : {
-          "start" : 1647163472199,
-          "stop" : 1647163472271,
-          "duration" : 72
+          "start" : 1647163457669,
+          "stop" : 1647163457743,
+          "duration" : 74
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'图片为空'", "400", "'{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"沙陌炒锅测试商品\",\n            \"sn\": \"sn000282\",\n            \"price\": \"280\",\n            \"mktprice\": \"300\",\n            \"cost\": \"50\",\n            \"weight\": \"2\",\n            \"goods_gallery_list\": [],\n            \"quantity\": 99999999,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": [],\n            \"intro\": \"商品说明\"\n        }'" ]
+        "parameters" : [ "'num为0'", "'\"004\"'", "'加入购物车数量必须大于0'", "400", "0", "5173" ]
       }, {
-        "name" : "MINI和BUY_NOW",
-        "uid" : "3292efaba52cc727",
+        "name" : "产品已下架",
+        "uid" : "3f4774f74710961c",
         "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
+        "status" : "failed",
         "time" : {
-          "start" : 1647163461413,
-          "stop" : 1647163461625,
-          "duration" : 212
+          "start" : 1647163458012,
+          "stop" : 1647163458091,
+          "duration" : 79
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'MINI和BUY_NOW'", "'MINI'", "200", "'BUY_NOW'" ]
-      }, {
-        "name" : "NATIVE和BUY_NOW",
-        "uid" : "d39bbdb9303adb64",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163460142,
-          "stop" : 1647163460387,
-          "duration" : 245
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'NATIVE和BUY_NOW'", "'NATIVE'", "200", "'BUY_NOW'" ]
+        "parameters" : [ "'产品已下架'", "'\"004\"'", "'产品已下架'", "500", "1", "5875" ]
       }, {
         "name" : "商品编号为空",
-        "uid" : "517ad3843243e574",
+        "uid" : "497b5db99aad944f",
         "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
         "status" : "failed",
         "time" : {
@@ -215,7 +111,7 @@
         "parameters" : [ "'商品编号为空'", "400", "'{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"沙陌炒锅测试商品\",\n            \"sn\": \"\",\n            \"price\": \"280\",\n            \"mktprice\": \"300\",\n            \"cost\": \"50\",\n            \"weight\": \"2\",\n            \"goods_gallery_list\": [{\n                \"img_id\": -1,\n                \"original\": \"http://www.mtxshop.com:7000/statics/attachment/goods/2022/3/13/10/57184862.png\",\n                \"sort\": 0\n            }],\n            \"quantity\": 99999999,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": [],\n            \"intro\": \"商品说明\"\n        }'" ]
       }, {
         "name" : "num为0",
-        "uid" : "4230f48b3ee72a01",
+        "uid" : "286d213552dc89c8",
         "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
         "status" : "passed",
         "time" : {
@@ -227,138 +123,21 @@
         "newFailed" : false,
         "parameters" : [ "'num为0'", "'\"004\"'", "'购买数量必须大于0'", "400", "0", "5173" ]
       }, {
-        "name" : "卖家发货接口",
-        "uid" : "7b3f8d124382ae12",
+        "name" : "NATIVE和CART",
+        "uid" : "fb5bf7a0c0cfa1ea",
         "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
         "status" : "passed",
         "time" : {
-          "start" : 1647163461939,
-          "stop" : 1647163464447,
-          "duration" : 2508
+          "start" : 1647163460395,
+          "stop" : 1647163460800,
+          "duration" : 405
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "卖家收款接口",
-        "uid" : "ddd80501ec97d71",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163466268,
-          "stop" : 1647163468220,
-          "duration" : 1952
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "num为空",
-        "uid" : "39db6e1e2ee746c2",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163458562,
-          "stop" : 1647163458647,
-          "duration" : 85
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'num为空'", "'\"004\"'", "'购买数量不能为空'", "400", "''", "5173" ]
-      }, {
-        "name" : "成本价格为空",
-        "uid" : "7c1f1e5d31888c5b",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163472056,
-          "stop" : 1647163472119,
-          "duration" : 63
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'成本价格为空'", "400", "'{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"沙陌炒锅测试商品\",\n            \"sn\": \"sn000282\",\n            \"price\": \"280\",\n            \"mktprice\": \"300\",\n            \"cost\": \"\",\n            \"weight\": \"2\",\n            \"goods_gallery_list\": [{\n                \"img_id\": -1,\n                \"original\": \"http://www.mtxshop.com:7000/statics/attachment/goods/2022/3/13/10/57184862.png\",\n                \"sort\": 0\n            }],\n            \"quantity\": 99999999,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": [],\n            \"intro\": \"商品说明\"\n        }'" ]
-      }, {
-        "name" : "WAP和CART",
-        "uid" : "919b75a2c010d5e4",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163459908,
-          "stop" : 1647163460135,
-          "duration" : 227
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'WAP和CART'", "'WAP'", "200", "'CART'" ]
-      }, {
-        "name" : "产品已下架",
-        "uid" : "777505822001285b",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1647163457054,
-          "stop" : 1647163457107,
-          "duration" : 53
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'产品已下架'", "'\"004\"'", "'产品已下架'", "500", "1", "5875" ]
-      }, {
-        "name" : "产品已下架",
-        "uid" : "553b5ed88ec538f6",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1647163458012,
-          "stop" : 1647163458091,
-          "duration" : 79
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'产品已下架'", "'\"004\"'", "'产品已下架'", "500", "1", "5875" ]
-      }, {
-        "name" : "买家收货接口",
-        "uid" : "1277c40a6f226a2e",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163464451,
-          "stop" : 1647163466263,
-          "duration" : 1812
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "num超过库存",
-        "uid" : "224e42d92e9b858e",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163457546,
-          "stop" : 1647163457658,
-          "duration" : 112
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'num超过库存'", "'\"451\"'", "'商品库存已不足，不能购买。'", "500", "99999999", "5173" ]
+        "parameters" : [ "'NATIVE和CART'", "'NATIVE'", "200", "'CART'" ]
       }, {
         "name" : "num为负数",
-        "uid" : "25b428f1edb1df6b",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163457749,
-          "stop" : 1647163457829,
-          "duration" : 80
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'num为负数'", "'\"004\"'", "'加入购物车数量必须大于0'", "400", "-1", "5173" ]
-      }, {
-        "name" : "num为负数",
-        "uid" : "a0e6c08d7805ee63",
+        "uid" : "4b7947f77a3dcc3b",
         "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
         "status" : "passed",
         "time" : {
@@ -370,34 +149,8 @@
         "newFailed" : false,
         "parameters" : [ "'num为负数'", "'\"004\"'", "'购买数量必须大于0'", "400", "-1", "5173" ]
       }, {
-        "name" : "MINI和CART",
-        "uid" : "b4e047a2b831b0fd",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163461634,
-          "stop" : 1647163461933,
-          "duration" : 299
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'MINI和CART'", "'MINI'", "200", "'CART'" ]
-      }, {
-        "name" : "库存为空",
-        "uid" : "de7155df8c40e7ba",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1647163472276,
-          "stop" : 1647163472441,
-          "duration" : 165
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'库存为空'", "400", "'{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"沙陌炒锅测试商品\",\n            \"sn\": \"sn000282\",\n            \"price\": \"280\",\n            \"mktprice\": \"300\",\n            \"cost\": \"50\",\n            \"weight\": \"2\",\n            \"goods_gallery_list\": [{\n                \"img_id\": -1,\n                \"original\": \"http://www.mtxshop.com:7000/statics/attachment/goods/2022/3/13/10/57184862.png\",\n                \"sort\": 0\n            }],\n            \"quantity\": 0,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": [],\n            \"intro\": \"商品说明\"\n        }'" ]
-      }, {
         "name" : "num超过库存",
-        "uid" : "43281f5a932d9458",
+        "uid" : "eb71ed11ec4d5467",
         "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
         "status" : "passed",
         "time" : {
@@ -409,47 +162,8 @@
         "newFailed" : false,
         "parameters" : [ "'num超过库存'", "'\"451\"'", "'商品库存已不足，不能购买。'", "500", "99999999", "5173" ]
       }, {
-        "name" : "产品id不存在",
-        "uid" : "270c65f2a2bf2748",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163458106,
-          "stop" : 1647163458165,
-          "duration" : 59
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'产品id不存在'", "'\"004\"'", "'不合法'", "500", "1", "6636655" ]
-      }, {
-        "name" : "商品重量为空",
-        "uid" : "47bfff5213500230",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163472127,
-          "stop" : 1647163472192,
-          "duration" : 65
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'商品重量为空'", "400", "'{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"沙陌炒锅测试商品\",\n            \"sn\": \"sn000282\",\n            \"price\": \"280\",\n            \"mktprice\": \"300\",\n            \"cost\": \"50\",\n            \"weight\": \"\",\n            \"goods_gallery_list\": [{\n                \"img_id\": -1,\n                \"original\": \"http://www.mtxshop.com:7000/statics/attachment/goods/2022/3/13/10/57184862.png\",\n                \"sort\": 0\n            }],\n            \"quantity\": 99999999,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": [],\n            \"intro\": \"商品说明\"\n        }'" ]
-      }, {
-        "name" : "商品名称为空",
-        "uid" : "27434645f4c7a05c",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163471709,
-          "stop" : 1647163471771,
-          "duration" : 62
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'商品名称为空'", "400", "'{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"\",\n            \"sn\": \"sn000282\",\n            \"price\": \"280\",\n            \"mktprice\": \"300\",\n            \"cost\": \"50\",\n            \"weight\": \"2\",\n            \"goods_gallery_list\": [{\n                \"img_id\": -1,\n                \"original\": \"http://www.mtxshop.com:7000/statics/attachment/goods/2022/3/13/10/57184862.png\",\n                \"sort\": 0\n            }],\n            \"quantity\": 99999999,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": [],\n            \"intro\": \"商品说明\"\n        }'" ]
-      }, {
         "name" : "client不是有效数据",
-        "uid" : "87fc1703c254ad84",
+        "uid" : "4689f836fd61c772",
         "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
         "status" : "passed",
         "time" : {
@@ -461,21 +175,320 @@
         "newFailed" : false,
         "parameters" : [ "'client不是有效数据'", "'PC1'", "500", "'BUY_NOW'" ]
       }, {
-        "name" : "num为0",
-        "uid" : "4ccba6b693ff7eec",
+        "name" : "产品id不存在",
+        "uid" : "f7b005a1d6b11367",
         "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
         "status" : "passed",
         "time" : {
-          "start" : 1647163457669,
-          "stop" : 1647163457743,
-          "duration" : 74
+          "start" : 1647163457477,
+          "stop" : 1647163457538,
+          "duration" : 61
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'num为0'", "'\"004\"'", "'加入购物车数量必须大于0'", "400", "0", "5173" ]
+        "parameters" : [ "'产品id不存在'", "'\"451\"'", "'商品已失效，请刷新购物车'", "500", "1", "6636655" ]
+      }, {
+        "name" : "num为空",
+        "uid" : "c066ed291fe7d74d",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163457923,
+          "stop" : 1647163458005,
+          "duration" : 82
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'num为空'", "'\"004\"'", "'购买数量不能为空'", "400", "''", "5173" ]
+      }, {
+        "name" : "MINI和BUY_NOW",
+        "uid" : "5856ba739c2dba0f",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163461413,
+          "stop" : 1647163461625,
+          "duration" : 212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'MINI和BUY_NOW'", "'MINI'", "200", "'BUY_NOW'" ]
+      }, {
+        "name" : "商品名称为空",
+        "uid" : "78792d8cb94c42f7",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163471709,
+          "stop" : 1647163471771,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'商品名称为空'", "400", "'{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"\",\n            \"sn\": \"sn000282\",\n            \"price\": \"280\",\n            \"mktprice\": \"300\",\n            \"cost\": \"50\",\n            \"weight\": \"2\",\n            \"goods_gallery_list\": [{\n                \"img_id\": -1,\n                \"original\": \"http://www.mtxshop.com:7000/statics/attachment/goods/2022/3/13/10/57184862.png\",\n                \"sort\": 0\n            }],\n            \"quantity\": 99999999,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": [],\n            \"intro\": \"商品说明\"\n        }'" ]
+      }, {
+        "name" : "num为负数",
+        "uid" : "63c99d88726b16d4",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163457749,
+          "stop" : 1647163457829,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'num为负数'", "'\"004\"'", "'加入购物车数量必须大于0'", "400", "-1", "5173" ]
+      }, {
+        "name" : "卖家收款接口",
+        "uid" : "e4b582c03e58d74c",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163466268,
+          "stop" : 1647163468220,
+          "duration" : 1952
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品id不存在",
+        "uid" : "e1ee7aa826b3dfb2",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163458106,
+          "stop" : 1647163458165,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'产品id不存在'", "'\"004\"'", "'不合法'", "500", "1", "6636655" ]
+      }, {
+        "name" : "way为空",
+        "uid" : "74ee5c1ec92cf74",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163458882,
+          "stop" : 1647163458947,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'way为空'", "'PC'", "500", "''" ]
+      }, {
+        "name" : "WAP和CART",
+        "uid" : "95fdab811adfe133",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163459908,
+          "stop" : 1647163460135,
+          "duration" : 227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'WAP和CART'", "'WAP'", "200", "'CART'" ]
+      }, {
+        "name" : "PC和BUY_NOW",
+        "uid" : "1c645e8837db4f1d",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163459216,
+          "stop" : 1647163459415,
+          "duration" : 199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PC和BUY_NOW'", "'PC'", "200", "'BUY_NOW'" ]
+      }, {
+        "name" : "成本价格为空",
+        "uid" : "e02f85a68212290b",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163472056,
+          "stop" : 1647163472119,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'成本价格为空'", "400", "'{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"沙陌炒锅测试商品\",\n            \"sn\": \"sn000282\",\n            \"price\": \"280\",\n            \"mktprice\": \"300\",\n            \"cost\": \"\",\n            \"weight\": \"2\",\n            \"goods_gallery_list\": [{\n                \"img_id\": -1,\n                \"original\": \"http://www.mtxshop.com:7000/statics/attachment/goods/2022/3/13/10/57184862.png\",\n                \"sort\": 0\n            }],\n            \"quantity\": 99999999,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": [],\n            \"intro\": \"商品说明\"\n        }'" ]
+      }, {
+        "name" : "PC和CART",
+        "uid" : "19f0a1e1993e8f31",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163459422,
+          "stop" : 1647163459649,
+          "duration" : 227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PC和CART'", "'PC'", "200", "'CART'" ]
+      }, {
+        "name" : "产品id为空",
+        "uid" : "49cb0dff21581e91",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163458469,
+          "stop" : 1647163458552,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'产品id为空'", "'\"004\"'", "'产品id不能为空'", "400", "1", "''" ]
+      }, {
+        "name" : "库存为空",
+        "uid" : "fbad1828a460027c",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647163472276,
+          "stop" : 1647163472441,
+          "duration" : 165
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'库存为空'", "400", "'{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"沙陌炒锅测试商品\",\n            \"sn\": \"sn000282\",\n            \"price\": \"280\",\n            \"mktprice\": \"300\",\n            \"cost\": \"50\",\n            \"weight\": \"2\",\n            \"goods_gallery_list\": [{\n                \"img_id\": -1,\n                \"original\": \"http://www.mtxshop.com:7000/statics/attachment/goods/2022/3/13/10/57184862.png\",\n                \"sort\": 0\n            }],\n            \"quantity\": 0,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": [],\n            \"intro\": \"商品说明\"\n        }'" ]
+      }, {
+        "name" : "way不是有效数据",
+        "uid" : "23b921d0bfd60b",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163458816,
+          "stop" : 1647163458877,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'way不是有效数据'", "'PC'", "500", "'sddd'" ]
+      }, {
+        "name" : "市场价格为空",
+        "uid" : "eefe733bf9c192b3",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163471949,
+          "stop" : 1647163471981,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'市场价格为空'", "400", "'{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"沙陌炒锅测试商品\",\n            \"sn\": \"sn000282\",\n            \"price\": \"280\",\n            \"mktprice\": \"\",\n            \"cost\": \"50\",\n            \"weight\": \"2\",\n            \"goods_gallery_list\": [{\n                \"img_id\": -1,\n                \"original\": \"http://www.mtxshop.com:7000/statics/attachment/goods/2022/3/13/10/57184862.png\",\n                \"sort\": 0\n            }],\n            \"quantity\": 99999999,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": [],\n            \"intro\": \"商品说明\"\n        }'" ]
+      }, {
+        "name" : "NATIVE和BUY_NOW",
+        "uid" : "c2bc61a78f1e0fc3",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163460142,
+          "stop" : 1647163460387,
+          "duration" : 245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'NATIVE和BUY_NOW'", "'NATIVE'", "200", "'BUY_NOW'" ]
+      }, {
+        "name" : "num超过库存",
+        "uid" : "cc1f43744ada3383",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163457546,
+          "stop" : 1647163457658,
+          "duration" : 112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'num超过库存'", "'\"451\"'", "'商品库存已不足，不能购买。'", "500", "99999999", "5173" ]
+      }, {
+        "name" : "商品重量为空",
+        "uid" : "9faf197d1455fbdf",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163472127,
+          "stop" : 1647163472192,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'商品重量为空'", "400", "'{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"沙陌炒锅测试商品\",\n            \"sn\": \"sn000282\",\n            \"price\": \"280\",\n            \"mktprice\": \"300\",\n            \"cost\": \"50\",\n            \"weight\": \"\",\n            \"goods_gallery_list\": [{\n                \"img_id\": -1,\n                \"original\": \"http://www.mtxshop.com:7000/statics/attachment/goods/2022/3/13/10/57184862.png\",\n                \"sort\": 0\n            }],\n            \"quantity\": 99999999,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": [],\n            \"intro\": \"商品说明\"\n        }'" ]
+      }, {
+        "name" : "MINI和CART",
+        "uid" : "6ee0b23230202da1",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163461634,
+          "stop" : 1647163461933,
+          "duration" : 299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'MINI和CART'", "'MINI'", "200", "'CART'" ]
+      }, {
+        "name" : "产品已下架",
+        "uid" : "338ea51c3f4dea09",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647163457054,
+          "stop" : 1647163457107,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'产品已下架'", "'\"004\"'", "'产品已下架'", "500", "1", "5875" ]
+      }, {
+        "name" : "WAP和BUY_NOW",
+        "uid" : "fa5367597b36c196",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163459656,
+          "stop" : 1647163459900,
+          "duration" : 244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'WAP和BUY_NOW'", "'WAP'", "200", "'BUY_NOW'" ]
+      }, {
+        "name" : "num为空",
+        "uid" : "36a532110f0a403c",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163458562,
+          "stop" : 1647163458647,
+          "duration" : 85
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'num为空'", "'\"004\"'", "'购买数量不能为空'", "400", "''", "5173" ]
+      }, {
+        "name" : "图片为空",
+        "uid" : "f701f64bcfca0e4f",
+        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647163472199,
+          "stop" : 1647163472271,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'图片为空'", "400", "'{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"沙陌炒锅测试商品\",\n            \"sn\": \"sn000282\",\n            \"price\": \"280\",\n            \"mktprice\": \"300\",\n            \"cost\": \"50\",\n            \"weight\": \"2\",\n            \"goods_gallery_list\": [],\n            \"quantity\": 99999999,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": [],\n            \"intro\": \"商品说明\"\n        }'" ]
       }, {
         "name" : "REACT和CART",
-        "uid" : "a7d5572ac2a5a097",
+        "uid" : "2bbeb3a94656c6e6",
         "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
         "status" : "passed",
         "time" : {
@@ -488,7 +501,7 @@
         "parameters" : [ "'REACT和CART'", "'REACT'", "200", "'CART'" ]
       }, {
         "name" : "商品价格为空",
-        "uid" : "46261b37b990f5e",
+        "uid" : "39b9b90a99414bf6",
         "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
         "status" : "passed",
         "time" : {
@@ -500,31 +513,18 @@
         "newFailed" : false,
         "parameters" : [ "'商品价格为空'", "400", "'{\n            \"brand_id\": \"\",\n            \"category_id\": 83,\n            \"category_name\": \"\",\n            \"goods_name\": \"沙陌炒锅测试商品\",\n            \"sn\": \"sn000282\",\n            \"price\": \"\",\n            \"mktprice\": \"300\",\n            \"cost\": \"50\",\n            \"weight\": \"2\",\n            \"goods_gallery_list\": [{\n                \"img_id\": -1,\n                \"original\": \"http://www.mtxshop.com:7000/statics/attachment/goods/2022/3/13/10/57184862.png\",\n                \"sort\": 0\n            }],\n            \"quantity\": 99999999,\n            \"goods_transfee_charge\": 1,\n            \"has_changed\": 0,\n            \"market_enable\": 1,\n            \"template_id\": 0,\n            \"exchange\": {\n                \"category_id\": \"\",\n                \"enable_exchange\": 0,\n                \"exchange_money\": 0,\n                \"exchange_point\": 0\n            },\n            \"shop_cat_id\": 0,\n            \"meta_description\": \"\",\n            \"meta_keywords\": \"\",\n            \"page_title\": \"\",\n            \"goods_params_list\": [],\n            \"sku_list\": [],\n            \"intro\": \"商品说明\"\n        }'" ]
       }, {
-        "name" : "num为空",
-        "uid" : "48ec48c236d18ddf",
+        "name" : "client为空",
+        "uid" : "2b7e4d896c3e9fc8",
         "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
         "status" : "passed",
         "time" : {
-          "start" : 1647163457923,
-          "stop" : 1647163458005,
-          "duration" : 82
+          "start" : 1647163458743,
+          "stop" : 1647163458808,
+          "duration" : 65
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'num为空'", "'\"004\"'", "'购买数量不能为空'", "400", "''", "5173" ]
-      }, {
-        "name" : "产品id为空",
-        "uid" : "1f3eeee4a7320aa0",
-        "parentUid" : "5b65a07a808c0ba2c7e2f5c2af32799f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647163458469,
-          "stop" : 1647163458552,
-          "duration" : 83
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'产品id为空'", "'\"004\"'", "'产品id不能为空'", "400", "1", "''" ]
+        "parameters" : [ "'client为空'", "''", "500", "'BUY_NOW'" ]
       } ],
       "uid" : "5b65a07a808c0ba2c7e2f5c2af32799f"
     } ],

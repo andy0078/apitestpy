@@ -1,95 +1,5 @@
 [ {
-  "uid" : "27b9964e43a80f75",
-  "name" : "市场价格为空",
-  "time" : {
-    "start" : 1647163471949,
-    "stop" : 1647163471981,
-    "duration" : 32
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a1c528757dd74a60",
-  "name" : "way不是有效数据",
-  "time" : {
-    "start" : 1647163458816,
-    "stop" : 1647163458877,
-    "duration" : 61
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "45809d0a47475e4d",
-  "name" : "PC和CART",
-  "time" : {
-    "start" : 1647163459422,
-    "stop" : 1647163459649,
-    "duration" : 227
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "24f9e259afed9d8f",
-  "name" : "NATIVE和CART",
-  "time" : {
-    "start" : 1647163460395,
-    "stop" : 1647163460800,
-    "duration" : 405
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6eb8866f9f3ba95d",
-  "name" : "way为空",
-  "time" : {
-    "start" : 1647163458882,
-    "stop" : 1647163458947,
-    "duration" : 65
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "777505822001285b",
-  "name" : "产品已下架",
-  "time" : {
-    "start" : 1647163457054,
-    "stop" : 1647163457107,
-    "duration" : 53
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "d39bbdb9303adb64",
-  "name" : "NATIVE和BUY_NOW",
-  "time" : {
-    "start" : 1647163460142,
-    "stop" : 1647163460387,
-    "duration" : 245
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "553b5ed88ec538f6",
-  "name" : "产品已下架",
-  "time" : {
-    "start" : 1647163458012,
-    "stop" : 1647163458091,
-    "duration" : 79
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "8a8f2076f5ba4ea8",
-  "name" : "client为空",
-  "time" : {
-    "start" : 1647163458743,
-    "stop" : 1647163458808,
-    "duration" : 65
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f4d4d2b7369085b6",
+  "uid" : "f7b005a1d6b11367",
   "name" : "产品id不存在",
   "time" : {
     "start" : 1647163457477,
@@ -99,257 +9,27 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "41b335729ae305ca",
-  "name" : "图片为空",
+  "uid" : "eefe733bf9c192b3",
+  "name" : "市场价格为空",
   "time" : {
-    "start" : 1647163472199,
-    "stop" : 1647163472271,
-    "duration" : 72
+    "start" : 1647163471949,
+    "stop" : 1647163471981,
+    "duration" : 32
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7b3f8d124382ae12",
-  "name" : "卖家发货接口",
+  "uid" : "c2bc61a78f1e0fc3",
+  "name" : "NATIVE和BUY_NOW",
   "time" : {
-    "start" : 1647163461939,
-    "stop" : 1647163464447,
-    "duration" : 2508
+    "start" : 1647163460142,
+    "stop" : 1647163460387,
+    "duration" : 245
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ddd80501ec97d71",
-  "name" : "卖家收款接口",
-  "time" : {
-    "start" : 1647163466268,
-    "stop" : 1647163468220,
-    "duration" : 1952
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "87fc1703c254ad84",
-  "name" : "client不是有效数据",
-  "time" : {
-    "start" : 1647163458657,
-    "stop" : 1647163458737,
-    "duration" : 80
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "39db6e1e2ee746c2",
-  "name" : "num为空",
-  "time" : {
-    "start" : 1647163458562,
-    "stop" : 1647163458647,
-    "duration" : 85
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7c1f1e5d31888c5b",
-  "name" : "成本价格为空",
-  "time" : {
-    "start" : 1647163472056,
-    "stop" : 1647163472119,
-    "duration" : 63
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "92116c8583724603",
-  "name" : "WAP和BUY_NOW",
-  "time" : {
-    "start" : 1647163459656,
-    "stop" : 1647163459900,
-    "duration" : 244
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "25b428f1edb1df6b",
-  "name" : "num为负数",
-  "time" : {
-    "start" : 1647163457749,
-    "stop" : 1647163457829,
-    "duration" : 80
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "43281f5a932d9458",
-  "name" : "num超过库存",
-  "time" : {
-    "start" : 1647163458173,
-    "stop" : 1647163458276,
-    "duration" : 103
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ebcfe225d705089a",
-  "name" : "PC和BUY_NOW",
-  "time" : {
-    "start" : 1647163459216,
-    "stop" : 1647163459415,
-    "duration" : 199
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "919b75a2c010d5e4",
-  "name" : "WAP和CART",
-  "time" : {
-    "start" : 1647163459908,
-    "stop" : 1647163460135,
-    "duration" : 227
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a0e6c08d7805ee63",
-  "name" : "num为负数",
-  "time" : {
-    "start" : 1647163458365,
-    "stop" : 1647163458456,
-    "duration" : 91
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1277c40a6f226a2e",
-  "name" : "买家收货接口",
-  "time" : {
-    "start" : 1647163464451,
-    "stop" : 1647163466263,
-    "duration" : 1812
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "224e42d92e9b858e",
-  "name" : "num超过库存",
-  "time" : {
-    "start" : 1647163457546,
-    "stop" : 1647163457658,
-    "duration" : 112
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b4e047a2b831b0fd",
-  "name" : "MINI和CART",
-  "time" : {
-    "start" : 1647163461634,
-    "stop" : 1647163461933,
-    "duration" : 299
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "47bfff5213500230",
-  "name" : "商品重量为空",
-  "time" : {
-    "start" : 1647163472127,
-    "stop" : 1647163472192,
-    "duration" : 65
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3292efaba52cc727",
-  "name" : "MINI和BUY_NOW",
-  "time" : {
-    "start" : 1647163461413,
-    "stop" : 1647163461625,
-    "duration" : 212
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "27434645f4c7a05c",
-  "name" : "商品名称为空",
-  "time" : {
-    "start" : 1647163471709,
-    "stop" : 1647163471771,
-    "duration" : 62
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4230f48b3ee72a01",
-  "name" : "num为0",
-  "time" : {
-    "start" : 1647163458285,
-    "stop" : 1647163458355,
-    "duration" : 70
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "de7155df8c40e7ba",
-  "name" : "库存为空",
-  "time" : {
-    "start" : 1647163472276,
-    "stop" : 1647163472441,
-    "duration" : 165
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4ccba6b693ff7eec",
-  "name" : "num为0",
-  "time" : {
-    "start" : 1647163457669,
-    "stop" : 1647163457743,
-    "duration" : 74
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "451a7de9b90038ea",
-  "name" : "产品id为空",
-  "time" : {
-    "start" : 1647163457839,
-    "stop" : 1647163457915,
-    "duration" : 76
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8dd34075d5b4b3ce",
-  "name" : "买家评论接口",
-  "time" : {
-    "start" : 1647163468224,
-    "stop" : 1647163471607,
-    "duration" : 3383
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1f3eeee4a7320aa0",
-  "name" : "产品id为空",
-  "time" : {
-    "start" : 1647163458469,
-    "stop" : 1647163458552,
-    "duration" : 83
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "48ec48c236d18ddf",
-  "name" : "num为空",
-  "time" : {
-    "start" : 1647163457923,
-    "stop" : 1647163458005,
-    "duration" : 82
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a7d5572ac2a5a097",
+  "uid" : "2bbeb3a94656c6e6",
   "name" : "REACT和CART",
   "time" : {
     "start" : 1647163461121,
@@ -359,7 +39,57 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4c99fc08028da6a",
+  "uid" : "286d213552dc89c8",
+  "name" : "num为0",
+  "time" : {
+    "start" : 1647163458285,
+    "stop" : 1647163458355,
+    "duration" : 70
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23b921d0bfd60b",
+  "name" : "way不是有效数据",
+  "time" : {
+    "start" : 1647163458816,
+    "stop" : 1647163458877,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f4774f74710961c",
+  "name" : "产品已下架",
+  "time" : {
+    "start" : 1647163458012,
+    "stop" : 1647163458091,
+    "duration" : 79
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f701f64bcfca0e4f",
+  "name" : "图片为空",
+  "time" : {
+    "start" : 1647163472199,
+    "stop" : 1647163472271,
+    "duration" : 72
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4b582c03e58d74c",
+  "name" : "卖家收款接口",
+  "time" : {
+    "start" : 1647163466268,
+    "stop" : 1647163468220,
+    "duration" : 1952
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c36f9f396a0fa848",
   "name" : "REACT和BUY_NOW",
   "time" : {
     "start" : 1647163460808,
@@ -369,17 +99,87 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "46261b37b990f5e",
-  "name" : "商品价格为空",
+  "uid" : "20067b6347bdd1df",
+  "name" : "卖家发货接口",
   "time" : {
-    "start" : 1647163471986,
-    "stop" : 1647163472050,
-    "duration" : 64
+    "start" : 1647163461939,
+    "stop" : 1647163464447,
+    "duration" : 2508
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "517ad3843243e574",
+  "uid" : "a1dfa7ff5800b354",
+  "name" : "num为0",
+  "time" : {
+    "start" : 1647163457669,
+    "stop" : 1647163457743,
+    "duration" : 74
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36a532110f0a403c",
+  "name" : "num为空",
+  "time" : {
+    "start" : 1647163458562,
+    "stop" : 1647163458647,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ee0b23230202da1",
+  "name" : "MINI和CART",
+  "time" : {
+    "start" : 1647163461634,
+    "stop" : 1647163461933,
+    "duration" : 299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19f0a1e1993e8f31",
+  "name" : "PC和CART",
+  "time" : {
+    "start" : 1647163459422,
+    "stop" : 1647163459649,
+    "duration" : 227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f50a988fd23209da",
+  "name" : "买家收货接口",
+  "time" : {
+    "start" : 1647163464451,
+    "stop" : 1647163466263,
+    "duration" : 1812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c645e8837db4f1d",
+  "name" : "PC和BUY_NOW",
+  "time" : {
+    "start" : 1647163459216,
+    "stop" : 1647163459415,
+    "duration" : 199
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63c99d88726b16d4",
+  "name" : "num为负数",
+  "time" : {
+    "start" : 1647163457749,
+    "stop" : 1647163457829,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "497b5db99aad944f",
   "name" : "商品编号为空",
   "time" : {
     "start" : 1647163471777,
@@ -389,12 +189,212 @@
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "270c65f2a2bf2748",
+  "uid" : "78792d8cb94c42f7",
+  "name" : "商品名称为空",
+  "time" : {
+    "start" : 1647163471709,
+    "stop" : 1647163471771,
+    "duration" : 62
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f55472c909dae62a",
+  "name" : "产品id为空",
+  "time" : {
+    "start" : 1647163457839,
+    "stop" : 1647163457915,
+    "duration" : 76
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74ee5c1ec92cf74",
+  "name" : "way为空",
+  "time" : {
+    "start" : 1647163458882,
+    "stop" : 1647163458947,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbad1828a460027c",
+  "name" : "库存为空",
+  "time" : {
+    "start" : 1647163472276,
+    "stop" : 1647163472441,
+    "duration" : 165
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1ee7aa826b3dfb2",
   "name" : "产品id不存在",
   "time" : {
     "start" : 1647163458106,
     "stop" : 1647163458165,
     "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95fdab811adfe133",
+  "name" : "WAP和CART",
+  "time" : {
+    "start" : 1647163459908,
+    "stop" : 1647163460135,
+    "duration" : 227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b7e4d896c3e9fc8",
+  "name" : "client为空",
+  "time" : {
+    "start" : 1647163458743,
+    "stop" : 1647163458808,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5856ba739c2dba0f",
+  "name" : "MINI和BUY_NOW",
+  "time" : {
+    "start" : 1647163461413,
+    "stop" : 1647163461625,
+    "duration" : 212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb5bf7a0c0cfa1ea",
+  "name" : "NATIVE和CART",
+  "time" : {
+    "start" : 1647163460395,
+    "stop" : 1647163460800,
+    "duration" : 405
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc1f43744ada3383",
+  "name" : "num超过库存",
+  "time" : {
+    "start" : 1647163457546,
+    "stop" : 1647163457658,
+    "duration" : 112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb71ed11ec4d5467",
+  "name" : "num超过库存",
+  "time" : {
+    "start" : 1647163458173,
+    "stop" : 1647163458276,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa5367597b36c196",
+  "name" : "WAP和BUY_NOW",
+  "time" : {
+    "start" : 1647163459656,
+    "stop" : 1647163459900,
+    "duration" : 244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c066ed291fe7d74d",
+  "name" : "num为空",
+  "time" : {
+    "start" : 1647163457923,
+    "stop" : 1647163458005,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b7947f77a3dcc3b",
+  "name" : "num为负数",
+  "time" : {
+    "start" : 1647163458365,
+    "stop" : 1647163458456,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4689f836fd61c772",
+  "name" : "client不是有效数据",
+  "time" : {
+    "start" : 1647163458657,
+    "stop" : 1647163458737,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49cb0dff21581e91",
+  "name" : "产品id为空",
+  "time" : {
+    "start" : 1647163458469,
+    "stop" : 1647163458552,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "338ea51c3f4dea09",
+  "name" : "产品已下架",
+  "time" : {
+    "start" : 1647163457054,
+    "stop" : 1647163457107,
+    "duration" : 53
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e02f85a68212290b",
+  "name" : "成本价格为空",
+  "time" : {
+    "start" : 1647163472056,
+    "stop" : 1647163472119,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9faf197d1455fbdf",
+  "name" : "商品重量为空",
+  "time" : {
+    "start" : 1647163472127,
+    "stop" : 1647163472192,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39b9b90a99414bf6",
+  "name" : "商品价格为空",
+  "time" : {
+    "start" : 1647163471986,
+    "stop" : 1647163472050,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9340a62f664bb4fb",
+  "name" : "买家评论接口",
+  "time" : {
+    "start" : 1647163468224,
+    "stop" : 1647163471607,
+    "duration" : 3383
   },
   "status" : "passed",
   "severity" : "normal"

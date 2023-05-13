@@ -6,8 +6,8 @@
 import allure
 import pytest
 
-from  api.seller.goods import AddGoodsApi
-from  common.file_load import read_excel
+from api.seller.goods import AddGoodsApi
+from common.file_load import read_excel
 
 
 @allure.feature('卖家添加商品接口')

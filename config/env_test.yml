@@ -1,5 +1,5 @@
 common:
-  buyerName: shamo
+  buyerName: andy
   buyerPassword: '123456'
   captcha: '1512'
   mobile_code: '908908'
