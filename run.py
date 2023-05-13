@@ -28,4 +28,4 @@ if __name__ == '__main__':
     write_yaml('/config/db.yml', env_info['db'])
     # 执行时，会自动识别pytest.ini中的规则，完成执行
     # pytest -sv  --alluredir ./report/data --clean-alluredir testcases
-    # os.system('allure generate ./report/data -o ./report/html --clean')
+    os.system('allure generate ./report/data -o ./report/html --clean')
