@@ -5,8 +5,8 @@
 # @Time     : 2022-09-22 21:20
 # @Copyright: 北京码同学
 import jsonpath
-# from jsonpath_rw import  Index, Fields
-# from jsonpath_rw_ext import parse
+from jsonpath_rw import  Index, Fields
+from jsonpath_rw_ext import parse
 
 from common.logger import GetLogger
 
@@ -38,18 +38,18 @@ def extract_json(json_obejct,express,index=0):
 pip install jsonpath-rw -i https://pypi.douban.com/simple
 pip install jsonpath-rw-ext -i https://pypi.douban.com/simple
 """
-# def update_value_to_json(json_object, json_path, new_value):
-#     json_path_expr = parse(json_path)
-#     # print(json_path_expr)
-#     for match in json_path_expr.find(json_object):
-#         # print(match)
-#         path = match.path
-#         print(path)
-#         if isinstance(path, Index):
-#             match.context.value[match.path.index] = new_value
-#         elif isinstance(path, Fields):
-#             match.context.value[match.path.fields[0]] = new_value
-#     return json_object
+def update_value_to_json(json_object, json_path, new_value):
+    json_path_expr = parse(json_path)
+    # print(json_path_expr)
+    for match in json_path_expr.find(json_object):
+        # print(match)
+        path = match.path
+        print(path)
+        if isinstance(path, Index):
+            match.context.value[match.path.index] = new_value
+        elif isinstance(path, Fields):
+            match.context.value[match.path.fields[0]] = new_value
+    return json_object
 
 
 
