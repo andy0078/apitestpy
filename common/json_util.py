@@ -97,4 +97,4 @@ if __name__ == '__main__':
     res = extract_json(s,'$.store..price',index=2)
     print(res)
 
-    print(update_value_to_json(s, "$..author", 'shamo'))
+    print(update_value_to_json(s, "$..author", 'andy'))
