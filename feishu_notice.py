@@ -51,7 +51,7 @@ class JenkinsStutus(RequestsClient):
         self.session.auth = (username,password)
 
 if __name__ == '__main__':
-    GetLogger.get_logger("feishu")  # 初始化logger对象
+    GetLogger.get_logger()  # 初始化logger对象
     agrs = sys.argv
     print(agrs)
     build_url = agrs[1]
