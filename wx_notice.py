@@ -2,6 +2,7 @@
 import sys
 
 from common.client import RequestsClient
+from common.json_util import extract_json
 
 from common.logger import GetLogger
 
