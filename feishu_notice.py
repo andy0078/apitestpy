@@ -67,6 +67,10 @@ if __name__ == '__main__':
     # 获取任务执行人
     # # user = jenkins_result.extract_resp("$..userName")
     user = extract_json(res.json(),'$..userName')
+    if not user:
+        # 如果 user 为空，则将 express 替换为 $.book 再次调用
+        express = "$..shortDescription"
+        user = extract_json(res.json(), express)
     ## 获取任务执行结果
     # result = jenkins_result.extract_resp("$..result")
     result = extract_json(res.json(),'$..result')
