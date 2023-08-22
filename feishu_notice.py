@@ -12,7 +12,7 @@ from common.logger import GetLogger
 
 class FeiShuNotice(RequestsClient):
 
-    def __init__(self,url,job_name,build_number,result,user,build_url):
+    def __init__(self, url, job_name, build_number, result, user, build_url):
         super().__init__()
         self.url = url
         self.method = "post"
@@ -24,31 +24,34 @@ class FeiShuNotice(RequestsClient):
                         "title": f"{job_name} 第{build_number}次测试完成",
                         "content": [
                             [{
-                                    "tag": "text",
-                                    "text": f"状态：{result}"
-                                }],
-                                [{
-                                    "tag": "text",
-                                    "text": f"执行人: {user}"
-                                }],
-                                [{
-                                    "tag": "a",
-                                    "text": "查看报告",
-                                    "href": f"{build_url}/allure"
-                                }]
+                                "tag": "text",
+                                "text": f"状态：{result}"
+                            }],
+                            [{
+                                "tag": "text",
+                                "text": f"执行人: {user}"
+                            }],
+                            [{
+                                "tag": "a",
+                                "text": "查看报告",
+                                "href": f"{build_url}/allure"
+                            }]
 
                         ]
                     }
                 }
             }
         }
+
+
 class JenkinsStutus(RequestsClient):
-    def __init__(self,build_url,username,password):
+    def __init__(self, build_url, username, password):
         # http://localhost:8080/job/feishu/1/api/json
         super().__init__()
         self.url = f'{build_url}/api/json'
         self.method = 'get'
-        self.session.auth = (username,password)
+        self.session.auth = (username, password)
+
 
 if __name__ == '__main__':
     GetLogger.get_logger()  # 初始化logger对象
@@ -61,18 +64,18 @@ if __name__ == '__main__':
     job_name = agrs[5]
     build_number = agrs[6]
     # 调用任务执行数据
-    jenkins_result = JenkinsStutus(build_url,username,password)
+    jenkins_result = JenkinsStutus(build_url, username, password)
     res = jenkins_result.send()
     print(res)
     # 获取任务执行人
     # # user = jenkins_result.extract_resp("$..userName")
-    user = extract_json(res.json(),'$..userName')
+    user = extract_json(res.json(), '$..userName')
     if not user:
         # 如果 user 为空，则将 express 替换为 $.book 再次调用
         express = "$..shortDescription"
         user = extract_json(res.json(), express)
     ## 获取任务执行结果
     # result = jenkins_result.extract_resp("$..result")
-    result = extract_json(res.json(),'$..result')
+    result = extract_json(res.json(), '$..result')
     # https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=783da784-95dd-41c5-ae51-31a2d89c3ce9
-    FeiShuNotice(fishu_url,job_name,build_number,result,user,build_url).send()
+    FeiShuNotice(fishu_url, job_name, build_number, result, user, build_url).send()
