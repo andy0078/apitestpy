@@ -9,25 +9,29 @@ import redis
 
 class RedisUtil:
     # decode_responses设置为true以字符串形式得到数据，设置为False以二进制形式得到
-    def __init__(self,host,pwd,port=6379,decode_responses=False):
-        self.pool = redis.ConnectionPool(host=host,password=pwd, port=port, decode_responses=decode_responses,encoding_errors='ignore')
+    def __init__(self, host, pwd, port=6379, decode_responses=False):
+        self.pool = redis.ConnectionPool(host=host, password=pwd, port=port, decode_responses=decode_responses,
+                                         encoding_errors='ignore')
         self.r = redis.Redis(connection_pool=self.pool)  # 表示从上面的连接池拿到一个连接对象
-    def get(self,key):
+
+    def get(self, key):
         type = self.r.type(key).decode('utf8')
         if type == 'string':
             return self.r.get(key)
         elif type == 'hash':
-            return  self.r.hgetall(key)
+            return self.r.hgetall(key)
         elif type == 'zset':
-            return self.r.zrange(key,0,-1)
+            return self.r.zrange(key, 0, -1)
         elif type == 'set':
             return self.r.smembers(key)
         elif type == 'list':
-            return self.r.lrange(key,0,-1)
+            return self.r.lrange(key, 0, -1)
         else:
             raise Exception(f'不支持的数据类型{type}或者{key}不存在')
+
+
 if __name__ == '__main__':
-    redis_util = RedisUtil(host='121.42.15.146',pwd='testfan')
+    redis_util = RedisUtil(host='121.42.15.146', pwd='testfan')
     # 立即购买接口的缓存数据
     # res = redis_util.get('{BUY_NOW_ORIGIN_DATA_PREFIX}_59') # 这个key后面的数字是根据用户发生变化，是用户id
     # print(res)
@@ -49,17 +53,16 @@ if __name__ == '__main__':
     print(res)
     print(type(res))
     # res是个字典
-    for key,value in res.items():
+    for key, value in res.items():
         key = javaobj.loads(key)
         # print(key)
         try:
             value = javaobj.loads(value)
             if key == 'addressId':
                 print(value)
-            if key== 'paymentType':
+            if key == 'paymentType':
                 value = value.__getattribute__('constant')
                 # print(dir(value))
         except:
             pass
         print(f'{key}:{value}')
-
