@@ -3,7 +3,7 @@
 # @author: 沙陌 微信：Matongxue_2
 # @Time: 2022-03-13 10:53
 # @Copyright：北京码同学
-from  api.base_api import BaseSellerApi
+from api.base_api import BaseSellerApi
 
 
 class AddGoodsApi(BaseSellerApi):
@@ -47,9 +47,10 @@ class AddGoodsApi(BaseSellerApi):
             "intro": "商品说明"
         }
 
+
 class UpdateGoodsApi(BaseSellerApi):
 
-    def __init__(self,goods_id):
+    def __init__(self, goods_id):
         super().__init__()
         self.url = f'{self.host}/seller/goods/{goods_id}'
         self.method = 'put'
@@ -100,30 +101,35 @@ class GoodsUnderApi(BaseSellerApi):
 
     # 由于下架商品的goods_id可以同时传多个，所以我们要设计一下传参方式并且处理
     # 要求传一个列表，这个列表里放的是每个要下架的商品id,['7466','7465'],变成'7466,7465'
-    def __init__(self,goods_ids):
+    def __init__(self, goods_ids):
         super().__init__()
         goods_ids = ','.join(goods_ids)
         self.url = f'{self.host}/seller/goods/{goods_ids}/under'
         self.method = 'put'
         self.params = {
-            'reason':''
+            'reason': ''
         }
+
+
 class DeleteGoodsApi(BaseSellerApi):
 
     # 由于删除商品的goods_id可以同时传多个，所以我们要设计一下传参方式并且处理
     # 要求传一个列表，这个列表里放的是每个要下架的商品id,['7466','7465'],变成'7466,7465'
-    def __init__(self,goods_ids):
+    def __init__(self, goods_ids):
         super().__init__()
         goods_ids = ','.join(goods_ids)
         self.url = f'{self.host}/seller/goods/{goods_ids}'
         self.method = 'delete'
+
+
 class GetGoodsSkuInfoApi(BaseSellerApi):
 
-    def __init__(self,goods_id):
+    def __init__(self, goods_id):
         super().__init__()
         self.url = f'{self.host}/seller/goods/{goods_id}/skus'
         self.method = 'get'
 
+
 if __name__ == '__main__':
-    goods_ids = ['7466','7465']
+    goods_ids = ['7466', '7465']
     print(','.join(goods_ids))
